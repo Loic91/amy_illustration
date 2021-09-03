@@ -6,19 +6,22 @@ body{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    /* background-color: rgba(130, 162, 190, 0.322); */
+    background-color: rgba(130, 162, 190, 0.322);
 }
-@media screen and (max-width: 599px){
+@media screen and (max-width: 375px){
     .cursor{
         display: none;
     }
+    body .section{
+        height: 80vh;
+    }
     .container{
-        max-width: 350px;
+        max-width: 360px;
     }
     .nav ul{
         width: 300px;
         margin-left: auto;
-        margin-right: 50px;
+        margin-right: 40px;
     }
     .title .shamblen{
         font-size: 4em;
@@ -28,7 +31,36 @@ body{
         margin-top: -65px;
     }
     .content {
-        display: none;
+        /* display: none; */
+        height: 50vh;
+        padding-top: 120px;
+    }
+    
+    .subtitle .bespoke{
+        font-size: 4em;
+        margin-top: 0px;
+    }
+    .subtitle .photo{
+        font-size: 4em;
+        margin-top: -65px;
+    }
+    body .svg_line {
+        margin-top: -42px;
+        width: 95px;
+        margin-left: 5px;
+    }
+    .subtitle .graphy{
+        font-size: 4em;
+        margin-top: -65px;
+        margin-left: auto;
+    }
+    .subtitle .anima{
+        font-size: 4em;
+        margin-top: -65px;
+    }
+    .subtitle .tions{
+        font-size: 4em;
+        margin-top: -65px;
     }
 }
 
