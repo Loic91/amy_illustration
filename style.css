@@ -403,9 +403,6 @@ body{
     }
 }
 @media screen and (min-width: 1000px) {
-    .cursor{
-        display: none;
-    }
     body .section{
         height: 140vh;
     }
