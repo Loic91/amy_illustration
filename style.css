@@ -8,62 +8,6 @@ body{
     margin-right: auto;
     /* background-color: rgba(130, 162, 190, 0.322); */
 }
-@media screen and (max-width: 375px){
-    .cursor{
-        display: none;
-    }
-    body .section{
-        height: 80vh;
-    }
-    .container{
-        max-width: 360px;
-    }
-    .nav ul{
-        width: 300px;
-        margin-left: auto;
-        margin-right: 40px;
-    }
-    .title .shamblen{
-        font-size: 4em;
-    }
-    .title .amy{
-        font-size: 4em;
-        margin-top: -65px;
-    }
-    .content {
-        /* display: none; */
-        height: 50vh;
-        padding-top: 120px;
-    }
-    
-    .subtitle .bespoke{
-        font-size: 4em;
-        margin-top: 0px;
-    }
-    .subtitle .photo{
-        font-size: 4em;
-        margin-top: -65px;
-    }
-    body .svg_line {
-        margin-top: -42px;
-        width: 95px;
-        margin-left: 5px;
-    }
-    .subtitle .graphy{
-        font-size: 4em;
-        margin-top: -65px;
-        margin-left: auto;
-    }
-    .subtitle .anima{
-        font-size: 4em;
-        margin-top: -65px;
-    }
-    .subtitle .tions{
-        font-size: 4em;
-        margin-top: -65px;
-    }
-}
-
 .section{
     height: 160vh;
 }
@@ -206,3 +150,60 @@ body{
     color: red;
 }
 
+
+/* MEDIA QUERIES ************************************ */
+@media screen and (max-width: 375px){
+    .cursor{
+        display: none;
+    }
+    body .section{
+        height: 80vh;
+    }
+    .container{
+        max-width: 360px;
+    }
+    .nav ul{
+        width: 300px;
+        margin-left: auto;
+        margin-right: 40px;
+    }
+    .title .shamblen{
+        font-size: 4em;
+    }
+    .title .amy{
+        font-size: 4em;
+        margin-top: -65px;
+    }
+    .content {
+        /* display: none; */
+        height: 50vh;
+        padding-top: 120px;
+    }
+    
+    .subtitle .bespoke{
+        font-size: 4em;
+        margin-top: 0px;
+    }
+    .subtitle .photo{
+        font-size: 4em;
+        margin-top: -65px;
+    }
+    body .svg_line {
+        margin-top: -42px;
+        width: 95px;
+        margin-left: 5px;
+    }
+    .subtitle .graphy{
+        font-size: 4em;
+        margin-top: -65px;
+        margin-left: auto;
+    }
+    .subtitle .anima{
+        font-size: 4em;
+        margin-top: -65px;
+    }
+    .subtitle .tions{
+        font-size: 4em;
+        margin-top: -65px;
+    }
+}
