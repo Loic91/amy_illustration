@@ -163,6 +163,66 @@ ScrollTrigger.create({
 })
 
 
+ScrollTrigger.create({
+    trigger: '#phraz_1_mobile',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.from('#phraz_1_mobile', 2, {
+        y: '100%',
+        delay: 0.9
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '#phraz_2_mobile',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.from('#phraz_2_mobile', 2, {
+        y: '100%',
+        delay: 0.9
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '#phraz_3_mobile',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.from('#phraz_3_mobile', 2, {
+        y: '100%',
+        delay: 0.9
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '#phraz_4_mobile',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.from('#phraz_4_mobile', 2, {
+        y: '100%',
+        delay: 0.9
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '#phraz_5_mobile',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.from('#phraz_5_mobile', 2, {
+        y: '100%',
+        delay: 0.9
+    }),
+    // markers: true
+})
 // **********************************
 
 
