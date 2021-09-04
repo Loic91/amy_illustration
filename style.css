@@ -6,7 +6,7 @@ body{
     /* max-width: 1200px; */
     margin-left: auto;
     margin-right: auto;
-    /* background-color: rgba(130, 162, 190, 0.322); */
+    background-color: rgba(130, 162, 190, 0.322);
 }
 
 .section{
@@ -151,12 +151,12 @@ body{
 }
 
 /* **************************************** */
-.bloc_text_one{
+/* .bloc_text_one{
     margin-top: -200px;
     width: 650px;
     margin-left: auto;
-}
-.phraz_one {
+} */
+/* .phraz_one {
     overflow: hidden;
     width: 100%;
     height: 28px;
@@ -189,7 +189,6 @@ body{
 #phraz_3{
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    /* text-align: right; */
     font-size: 1.6em; 
     color: #000000;
     margin-top: 0px;
@@ -202,11 +201,10 @@ body{
 #phraz_4{
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    /* text-align: right; */
     font-size: 1.6em; 
     color: #000000;
     margin-top: 0px;
-}
+} */
 
 
 
@@ -235,19 +233,129 @@ body{
 *****************************************************
 *****************************************************/
 @media screen and (max-width: 360px){
+    body .section{
+        height: 80vh;
+    }
     .container{
         width: 340px;
     }
-    .nav{
-        width: 250px;
+    .nav ul{
+        width: 280px;
         margin-left: auto;
-        margin-right: 90px;
     }
-    .subtitle{
+    .title .shamblen{
+        font-size: 4em;
+    }
+    .title .amy{
+        font-size: 4em;
+        margin-top: -65px;
+    }
+    .content {
+        /* display: none; */
+        height: 50vh;
         margin-top: -30px;
     }
+    .subtitle{
+        padding-top: -40px;
+    }
+    .subtitle .bespoke{
+        font-size: 4em;
+        margin-top: 0px;
+    }
+    .subtitle .photo{
+        font-size: 4em;
+        margin-top: -65px;
+    }
+    body .svg_line {
+        margin-top: -42px;
+        width: 95px;
+        margin-left: 5px;
+    }
+    .subtitle .graphy{
+        font-size: 4em;
+        margin-top: -65px;
+        margin-left: auto;
+    }
+    .subtitle .anima{
+        font-size: 4em;
+        margin-top: -65px;
+    }
+    .subtitle .tions{
+        font-size: 4em;
+        margin-top: -65px;
+    }
+
+    .bloc_text_one{
+        display: none;
+    }
+    .bloc_text_one_mobile{
+        margin-top: -50px;
+        width: 350px;
+        margin-left: 30px;
+    }
+    .phraz_one_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 23px;
+    }
+    #phraz_1_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_two_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 22px;
+    }
+    #phraz_2_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_three_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 22px;
+    }
+    #phraz_3_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_four_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 22px;
+    }
+    #phraz_4_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_five_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 20px;
+    }
+    #phraz_5_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
 }
-@media screen and (max-width: 375px){
+@media all and (min-width: 361px) and (max-width: 375px){
     body .section{
         height: 80vh;
     }
@@ -300,8 +408,79 @@ body{
         font-size: 4em;
         margin-top: -65px;
     }
+
+    .bloc_text_one{
+        display: none;
+    }
+    .bloc_text_one_mobile{
+        margin-top: -50px;
+        width: 350px;
+        margin-left: 45px;
+    }
+    .phraz_one_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 23px;
+    }
+    #phraz_1_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_two_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 22px;
+    }
+    #phraz_2_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_three_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 22px;
+    }
+    #phraz_3_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_four_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 22px;
+    }
+    #phraz_4_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_five_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 20px;
+    }
+    #phraz_5_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
 }
-@media screen and (min-width: 376px){
+
+@media all and (min-width: 376px) and (max-width: 398px){
     body .section{
         height: 80vh;
     }
@@ -354,8 +533,79 @@ body{
         font-size: 4em;
         margin-top: -65px;
     }
+
+    .bloc_text_one{
+        display: none;
+    }
+    .bloc_text_one_mobile{
+        margin-top: -50px;
+        width: 350px;
+        margin-left: 55px;
+    }
+    .phraz_one_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 23px;
+    }
+    #phraz_1_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_two_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 22px;
+    }
+    #phraz_2_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_three_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 22px;
+    }
+    #phraz_3_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_four_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 22px;
+    }
+    #phraz_4_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_five_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 20px;
+    }
+    #phraz_5_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
 }
-@media screen and (min-width: 399px){
+
+@media all and (min-width: 399px) and (max-width: 698px){
     body .section{
         height: 80vh;
     }
@@ -408,8 +658,79 @@ body{
         font-size: 4em;
         margin-top: -65px;
     }
+
+    .bloc_text_one{
+        display: none;
+    }
+    .bloc_text_one_mobile{
+        margin-top: -50px;
+        width: 350px;
+        margin-left: 85px;
+    }
+    .phraz_one_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 23px;
+    }
+    #phraz_1_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_two_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 22px;
+    }
+    #phraz_2_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_three_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 22px;
+    }
+    #phraz_3_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_four_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 22px;
+    }
+    #phraz_4_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_five_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 20px;
+    }
+    #phraz_5_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
 }
-@media screen and (min-width: 699px){
+
+@media all and (min-width: 699px) and (max-width: 999px){
     body .section{
         height: 80vh;
     }
@@ -463,7 +784,8 @@ body{
         margin-top: -145px;
     }
 }
-@media screen and (min-width: 1000px) {
+
+@media all and (min-width: 1000px) and (max-width: 1198px){
     body .section{
         height: 140vh;
     }
@@ -515,6 +837,64 @@ body{
         font-size: 11em;
         margin-top: -195px;
     }
+
+    .bloc_text_one_mobile{
+        display: none;
+    }
+    .bloc_text_one{
+        margin-top: -200px;
+        width: 650px;
+        margin-left: auto;
+    }
+    .phraz_one {
+        overflow: hidden;
+        width: 100%;
+        height: 28px;
+    }
+    #phraz_1{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.6em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_two {
+        overflow: hidden;
+        width: 100%;
+        height: 30px;
+    }
+    #phraz_2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.6em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_three {
+        overflow: hidden;
+        width: 100%;
+        height: 29px;
+    }
+    #phraz_3{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.6em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_four {
+        overflow: hidden;
+        width: 100%;
+        height: 24px;
+    }
+    #phraz_4{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.6em; 
+        color: #000000;
+        margin-top: 0px;
+    }
 }
 
 @media screen and (min-width: 1199px){
@@ -558,6 +938,64 @@ body{
     .subtitle .tions{
         font-size: 14em;
         margin-top: -250px;
+    }
+
+    .bloc_text_one_mobile{
+        display: none;
+    }
+    .bloc_text_one{
+        margin-top: -200px;
+        width: 650px;
+        margin-left: auto;
+    }
+    .phraz_one {
+        overflow: hidden;
+        width: 100%;
+        height: 28px;
+    }
+    #phraz_1{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.6em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_two {
+        overflow: hidden;
+        width: 100%;
+        height: 30px;
+    }
+    #phraz_2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.6em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_three {
+        overflow: hidden;
+        width: 100%;
+        height: 29px;
+    }
+    #phraz_3{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.6em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_four {
+        overflow: hidden;
+        width: 100%;
+        height: 24px;
+    }
+    #phraz_4{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.6em; 
+        color: #000000;
+        margin-top: 0px;
     }
 }
 
