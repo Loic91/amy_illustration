@@ -6,11 +6,11 @@ body{
     /* max-width: 1200px; */
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(130, 162, 190, 0.322);
+    /* background-color: rgba(130, 162, 190, 0.322); */
 }
 
 .section{
-    height: 200vh;
+    height: 130vh;
 }
 /* ******************************************** */
 
@@ -752,7 +752,7 @@ body{
     .content {
         /* display: none; */
         height: 50vh;
-        padding-top: 80px;
+        margin-top: -100px;
     }
     .subtitle{
         margin-top: -30px;
@@ -783,14 +783,84 @@ body{
         font-size: 8em;
         margin-top: -145px;
     }
+
+    .bloc_text_one{
+        display: none;
+    }
+    .bloc_text_one_mobile{
+        margin-top: -100px;
+        width: 350px;
+        margin-left: auto;
+    }
+    .phraz_one_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 25px;
+    }
+    #phraz_1_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.3em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_two_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 25px;
+    }
+    #phraz_2_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.3em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_three_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 25px;
+    }
+    #phraz_3_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.3em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_four_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 25px;
+    }
+    #phraz_4_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.3em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .phraz_five_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 21px;
+    }
+    #phraz_5_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 1.3em; 
+        color: #000000;
+        margin-top: 0px;
+    }
 }
 
 @media all and (min-width: 1000px) and (max-width: 1198px){
     body .section{
-        height: 140vh;
+        height: 160vh;
     }
     .container{
-        max-width: 1000px;
+        width: 1000px;
     }
     .nav ul{
         width: 300px;
@@ -806,10 +876,10 @@ body{
     }
     .content {
         height: 100vh;
-        padding-top: 80px;
+        margin-top: -100px;
     }
     .subtitle{
-        margin-top: 90px;
+        margin-top: 0px;
     }
     .subtitle .bespoke{
         font-size: 11em;
@@ -898,14 +968,17 @@ body{
 }
 
 @media screen and (min-width: 1199px){
+    body .section{
+        height: 150vh;
+    }
     .container{
-        min-width: 1200px;
+        width: 1200px;
     }
     .nav{
         width: 400px;
     }
     .content{
-        margin-top: -200px;
+        margin-top: -100px;
     }
     .title .shamblen{
         font-size: 14em;
