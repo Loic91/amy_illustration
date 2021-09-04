@@ -75,14 +75,7 @@ body{
     text-align: right;
     /* margin-top: -250px; */
 }
-/* @media screen and (min-width: 1199px){
-    .title .shamblen{
-        font-size: 18em;
-    }
-    .title .amy{
-        font-size: 14em;
-    }
-} */
+
 
 /* ********************************************* */
 
@@ -175,9 +168,6 @@ body{
     }
 }
 @media screen and (max-width: 375px){
-    .cursor{
-        display: none;
-    }
     body .section{
         height: 80vh;
     }
@@ -232,9 +222,6 @@ body{
     }
 }
 @media screen and (min-width: 376px){
-    .cursor{
-        display: none;
-    }
     body .section{
         height: 80vh;
     }
@@ -289,9 +276,6 @@ body{
     }
 }
 @media screen and (min-width: 399px){
-    .cursor{
-        display: none;
-    }
     body .section{
         height: 80vh;
     }
@@ -346,9 +330,6 @@ body{
     }
 }
 @media screen and (min-width: 699px){
-    .cursor{
-        display: none;
-    }
     body .section{
         height: 80vh;
     }
@@ -499,3 +480,14 @@ body{
         margin-top: -250px;
     }
 }
+
+@media screen and (max-width: 900px){
+    .cursor{
+        display: none;
+    }
+}
+
+
+
+
+
