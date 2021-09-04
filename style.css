@@ -6,7 +6,7 @@ body{
     /* max-width: 1200px; */
     margin-left: auto;
     margin-right: auto;
-    /* background-color: rgba(130, 162, 190, 0.322); */
+    background-color: rgba(130, 162, 190, 0.322);
 }
 
 .section{
@@ -232,22 +232,22 @@ body{
 /* MEDIA QUERIES ************************************ 
 *****************************************************
 *****************************************************/
-@media screen and (max-width: 360px){
+@media all and (min-width: 300px) and (max-width: 360px){
     body .section{
         height: 80vh;
     }
     .container{
-        width: 340px;
+        width: 310px;
     }
     .nav ul{
-        width: 280px;
+        width: 260px;
         margin-left: auto;
     }
     .title .shamblen{
-        font-size: 4em;
+        font-size: 3.5em;
     }
     .title .amy{
-        font-size: 4em;
+        font-size: 3.5em;
         margin-top: -65px;
     }
     .content {
@@ -259,29 +259,29 @@ body{
         padding-top: -40px;
     }
     .subtitle .bespoke{
-        font-size: 4em;
+        font-size: 3.5em;
         margin-top: 0px;
     }
     .subtitle .photo{
-        font-size: 4em;
+        font-size: 3.5em;
         margin-top: -65px;
     }
     body .svg_line {
-        margin-top: -42px;
-        width: 95px;
+        margin-top: -48px;
+        width: 70px;
         margin-left: 5px;
     }
     .subtitle .graphy{
-        font-size: 4em;
+        font-size: 3.5em;
         margin-top: -65px;
         margin-left: auto;
     }
     .subtitle .anima{
-        font-size: 4em;
+        font-size: 3.5em;
         margin-top: -65px;
     }
     .subtitle .tions{
-        font-size: 4em;
+        font-size: 3.5em;
         margin-top: -65px;
     }
 
@@ -291,7 +291,7 @@ body{
     .bloc_text_one_mobile{
         margin-top: -50px;
         width: 350px;
-        margin-left: 30px;
+        margin-left: auto;
     }
     .phraz_one_mobile {
         overflow: hidden;
@@ -365,7 +365,7 @@ body{
     .nav ul{
         width: 300px;
         margin-left: auto;
-        margin-right: 40px;
+        /* margin-right: 40px; */
     }
     .title .shamblen{
         font-size: 4em;
