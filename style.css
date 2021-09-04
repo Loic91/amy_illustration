@@ -10,7 +10,7 @@ body{
 }
 
 .section{
-    height: 160vh;
+    height: 200vh;
 }
 /* ******************************************** */
 
@@ -149,6 +149,86 @@ body{
 .red{
     color: red;
 }
+
+/* **************************************** */
+.bloc_text_one{
+    margin-top: -200px;
+    width: 650px;
+    margin-left: auto;
+}
+.phraz_one {
+    overflow: hidden;
+    width: 100%;
+    height: 28px;
+}
+#phraz_1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    justify-content: space-between;
+    font-size: 1.6em; 
+    color: #000000;
+    margin-top: 0px;
+}
+.phraz_two {
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+}
+#phraz_2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1.6em; 
+    color: #000000;
+    margin-top: 0px;
+}
+.phraz_three {
+    overflow: hidden;
+    width: 100%;
+    height: 29px;
+}
+#phraz_3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    /* text-align: right; */
+    font-size: 1.6em; 
+    color: #000000;
+    margin-top: 0px;
+}
+.phraz_four {
+    overflow: hidden;
+    width: 100%;
+    height: 24px;
+}
+#phraz_4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    /* text-align: right; */
+    font-size: 1.6em; 
+    color: #000000;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* MEDIA QUERIES ************************************ 
