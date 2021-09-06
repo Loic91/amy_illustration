@@ -207,7 +207,6 @@ body{
         margin-top: -65px;
     }
     .content {
-        /* display: none; */
         height: 50vh;
         margin-top: -30px;
     }
@@ -320,6 +319,7 @@ body{
         margin-left: -25px;
         margin-right: -25px;
 
+        margin-top: -150px;
         height: 200vh;
     }
     .container .bloc_container{
@@ -532,7 +532,7 @@ body{
 
 
 
-@media all and (min-width: 361px) and (max-width: 375px){
+@media all and (min-width: 361px) and (max-width: 374px){
     body .section{
         height: 80vh;
     }
@@ -666,6 +666,7 @@ body{
         margin-left: -55px;
         margin-right: -55px;
 
+        margin-top: -150px;
         height: 200vh;
     }
     .container .bloc_container{
@@ -877,7 +878,7 @@ body{
 
 
 
-@media all and (min-width: 376px) and (max-width: 398px){
+@media all and (min-width: 375px) and (max-width: 398px){
     body .section{
         height: 80vh;
     }
@@ -1011,6 +1012,7 @@ body{
         margin-left: -55px;
         margin-right: -55px;
 
+        margin-top: -150px;
         height: 200vh;
     }
     .container .bloc_container{
@@ -1209,7 +1211,7 @@ body{
         width: 250px;
     }
 }
-}
+
 
 
 
@@ -1348,7 +1350,229 @@ body{
         color: #000000;
         margin-top: 0px;
     }
+
+    /* YELLOW SECTION *********** */
+    .bloc_text_two{
+        display: none;
+    }
+    .container .yellow_bloc{
+        background-color: #FED701;
+        min-width: 100%;
+        margin-left: -55px;
+        margin-right: -55px;
+
+        margin-top: -150px;
+        height: 200vh;
+    }
+    .container .bloc_container{
+        width: 310px;
+        padding-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .yellow_phraz_one_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 23px;
+    }
+    #yellow_phraz_1_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_two_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 23px;
+    }
+    #yellow_phraz_2_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_three_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 23px;
+    }
+    #yellow_phraz_3_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_four_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 23px;
+    }
+    #yellow_phraz_4_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_five_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 23px;
+    }
+    #yellow_phraz_5_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_six_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 23px;
+    }
+    #yellow_phraz_6_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_seven_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 23px;
+    }
+    #yellow_phraz_7_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_eight_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 23px;
+    }
+    #yellow_phraz_8_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_nine_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 23px;
+    }
+    #yellow_phraz_9_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_ten_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 23px;
+    }
+    #yellow_phraz_10_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_eleven_mobile {
+        overflow: hidden;
+        width: 100%;
+        height: 23px;
+    }
+    #yellow_phraz_11_mobile{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.2em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+
+    .bloc_view_collection{
+        margin-top: -70px;
+    }
+    .view{
+        font-size: 8em;
+
+    }
+    .col{
+        font-size: 8em;
+        margin-top: -140px;
+    }
+    .lec{
+        font-size: 8em;
+        margin-top: -140px;
+        /* text-align: right; */
+        margin-left: auto;
+    }
+    body .svg_line_2{
+        margin-top: -75px;
+        width: 60px;
+        margin-left: auto;
+    }
+    .tio{
+        font-size: 8em;
+        margin-top: -140px;
+        text-align: left;
+    }
+    body .svg_line_3{
+        margin-top: -75px;
+        margin-left: auto;
+        margin-right: 0px;
+        width: 90px;
+    }
+    .ns{
+        font-size: 8em;
+        margin-top: -140px;
+        text-align: right;
+        margin-bottom: 0;
+    }
+
+    body .arrow{
+        margin-top: -20px;
+        margin-left: 30px;
+        width: 250px;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media all and (min-width: 699px) and (max-width: 999px){
     body .section{
@@ -1473,7 +1697,159 @@ body{
         color: #000000;
         margin-top: 0px;
     }
+
+    /* YELLOW SECTION *********** */
+    .bloc_text_two_mobile{
+        display: none;
+    }
+    .container .yellow_bloc{
+        background-color: #FED701;
+        min-width: 100%;
+        margin-left: -135px;
+        margin-right: -135px;
+
+        margin-top: -50px;
+        height: 200vh;
+    }
+    .container .bloc_container{
+        width: 500px;
+        padding-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .yellow_phraz_one {
+        overflow: hidden;
+        width: 100%;
+        height: 25px;
+    }
+    #yellow_phraz_1{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.3em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_two {
+        overflow: hidden;
+        width: 100%;
+        height: 25px;
+    }
+    #yellow_phraz_2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.3em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_three {
+        overflow: hidden;
+        width: 100%;
+        height: 25px;
+    }
+    #yellow_phraz_3{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.3em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_four {
+        overflow: hidden;
+        width: 100%;
+        height: 25px;
+    }
+    #yellow_phraz_4{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.3em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_five {
+        overflow: hidden;
+        width: 100%;
+        height: 25px;
+    }
+    #yellow_phraz_5{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.3em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_six {
+        overflow: hidden;
+        width: 100%;
+        height: 25px;
+    }
+    #yellow_phraz_6{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.3em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+
+    .bloc_view_collection{
+        margin-top: -180px;
+    }
+    .view{
+        font-size: 13.5em;
+    }
+    .col{
+        font-size: 13.5em;
+        margin-top: -230px;
+    }
+    .lec{
+        font-size: 13.5em;
+        margin-top: -230px;
+        text-align: right;
+    }
+    body .svg_line_2{
+        margin-top: -110px;
+    }
+    .tio{
+        font-size: 13.5em;
+        margin-top: -230px;
+        text-align: left;
+    }
+    body .svg_line_3{
+        margin-top: -110px;
+        margin-left: auto;
+    }
+    .ns{
+        font-size: 13.5em;
+        margin-top: -230px;
+        text-align: right;
+        margin-bottom: 0;
+    }
+
+    body .arrow{
+        margin-top: 0px;
+        margin-left: 60px;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media all and (min-width: 1000px) and (max-width: 1198px){
     body .section{
@@ -1532,44 +1908,44 @@ body{
         display: none;
     }
     .bloc_text_one{
-        margin-top: -200px;
-        width: 650px;
+        margin-top: -150px;
+        width: 500px;
         margin-left: auto;
     }
     .phraz_one {
         overflow: hidden;
         width: 100%;
-        height: 28px;
+        height: 25px;
     }
     #phraz_1{
         font-family: 'Roboto', sans-serif;
         font-weight: lighter;
         justify-content: space-between;
-        font-size: 1.6em; 
+        font-size: 1.3em; 
         color: #000000;
         margin-top: 0px;
     }
     .phraz_two {
         overflow: hidden;
         width: 100%;
-        height: 30px;
+        height: 25px;
     }
     #phraz_2{
         font-family: 'Roboto', sans-serif;
         font-weight: lighter;
-        font-size: 1.6em; 
+        font-size: 1.3em; 
         color: #000000;
         margin-top: 0px;
     }
     .phraz_three {
         overflow: hidden;
         width: 100%;
-        height: 29px;
+        height: 25px;
     }
     #phraz_3{
         font-family: 'Roboto', sans-serif;
         font-weight: lighter;
-        font-size: 1.6em; 
+        font-size: 1.3em; 
         color: #000000;
         margin-top: 0px;
     }
@@ -1581,11 +1957,164 @@ body{
     #phraz_4{
         font-family: 'Roboto', sans-serif;
         font-weight: lighter;
-        font-size: 1.6em; 
+        font-size: 1.3em; 
         color: #000000;
         margin-top: 0px;
     }
+
+    /* YELLOW SECTION *********** */
+    .bloc_text_two_mobile{
+        display: none;
+    }
+    .container .yellow_bloc{
+        background-color: #FED701;
+        min-width: 100%;
+        margin-left: -135px;
+        margin-right: -135px;
+
+        margin-top: -300px;
+        height: 200vh;
+    }
+    .container .bloc_container{
+        width: 500px;
+        padding-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .yellow_phraz_one {
+        overflow: hidden;
+        width: 100%;
+        height: 25px;
+    }
+    #yellow_phraz_1{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.3em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_two {
+        overflow: hidden;
+        width: 100%;
+        height: 25px;
+    }
+    #yellow_phraz_2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.3em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_three {
+        overflow: hidden;
+        width: 100%;
+        height: 25px;
+    }
+    #yellow_phraz_3{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.3em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_four {
+        overflow: hidden;
+        width: 100%;
+        height: 25px;
+    }
+    #yellow_phraz_4{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.3em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_five {
+        overflow: hidden;
+        width: 100%;
+        height: 25px;
+    }
+    #yellow_phraz_5{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.3em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    .yellow_phraz_six {
+        overflow: hidden;
+        width: 100%;
+        height: 25px;
+    }
+    #yellow_phraz_6{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        justify-content: space-between;
+        font-size: 1.3em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+
+    .bloc_view_collection{
+        margin-top: -180px;
+    }
+    .view{
+        font-size: 13.5em;
+    }
+    .col{
+        font-size: 13.5em;
+        margin-top: -230px;
+    }
+    .lec{
+        font-size: 13.5em;
+        margin-top: -230px;
+        text-align: right;
+    }
+    body .svg_line_2{
+        margin-top: -110px;
+    }
+    .tio{
+        font-size: 13.5em;
+        margin-top: -230px;
+        text-align: left;
+    }
+    body .svg_line_3{
+        margin-top: -110px;
+        margin-left: auto;
+    }
+    .ns{
+        font-size: 13.5em;
+        margin-top: -230px;
+        text-align: right;
+        margin-bottom: 0;
+    }
+
+    body .arrow{
+        margin-top: 0px;
+        margin-left: 60px;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 1199px){
     body .section{
