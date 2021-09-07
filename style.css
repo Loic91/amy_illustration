@@ -2231,7 +2231,7 @@ body{
         margin-left: -135px;
         margin-right: -135px;
 
-        height: 170vh;
+        height: 320vh;
     }
     .container .bloc_container{
         width: 500px;
@@ -2365,78 +2365,88 @@ body{
     .pictures_one{
         display: flex;
         justify-content: center;
-        margin-bottom: -100px;
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
     .image_1 {
         background-image: url("./images/4.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        margin-top: 30px;
-        margin-left: 30px;
         overflow: hidden;
         position: relative;
     
-        width: 400px;
+        width: 300px;
         height:100%;
         z-index: -1;
     } 
     .box_color_1 {
         background-color: #ff0808;
         overflow: hidden;
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
     }
 
     .image_2 {
         background-image: url("./images/5.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        margin-top: 30px;
-        margin-left: 30px;
         overflow: hidden;
         position: relative;
     
-        width: 600px;
+        width: 300px;
         height:100%;
         z-index: -1;
     } 
     .box_color_2 {
         background-color: #0bff55;
         overflow: hidden;
-        width: 600px;
-        height: 600px;
+        width: 300px;
+        height: 300px;
     }
+
+    .text_pictures_one {
+        overflow: hidden;
+        width: 100%;
+        height: 46px;
+    }
+    #text_pictures_1{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        font-size: 2.5em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+
 
     .pictures_two{
         display: flex;
         justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
     .image_3 {
         background-image: url("./images/6.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        /* margin-top: 30px;
-        margin-left: 30px; */
         overflow: hidden;
         position: relative;
     
-        width: 500px;
+        width: 300px;
         height:100%;
         z-index: -1;
     } 
     .box_color_3 {
         background-color: #ba43ff;
         overflow: hidden;
-        width: 500px;
-        height: 500px;
+        width: 300px;
+        height: 300px;
     }
 
     .image_4 {
         background-image: url("./images/8.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        /* margin-top: 30px;
-        margin-left: 30px; */
         overflow: hidden;
         position: relative;
     
@@ -2450,18 +2460,31 @@ body{
         width: 300px;
         height: 300px;
     }
+    .text_pictures_two {
+        overflow: hidden;
+        width: 100%;
+        height: 46px;
+    }
+    #text_pictures_2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        font-size: 2.5em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    
 
     .pictures_three{
         display: flex;
         justify-content: center;
-        margin-top: -100px;
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
     .image_5 {
         background-image: url("./images/9.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        /* margin-top: 30px;
-        margin-left: 30px; */
         overflow: hidden;
         position: relative;
     
@@ -2480,21 +2503,33 @@ body{
         background-image: url("./images/10.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        /* margin-top: 30px;
-        margin-left: 30px; */
         overflow: hidden;
         position: relative;
     
-        width: 700px;
+        width: 300px;
         height:100%;
         z-index: -1;
     } 
     .box_color_6 {
         background-color: #ff11cc;
         overflow: hidden;
-        width: 700px;
-        height: 700px;
+        width: 300px;
+        height: 300px;
     }
+    .text_pictures_three {
+        overflow: hidden;
+        width: 100%;
+        height: 46px;
+    }
+    #text_pictures_3{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        font-size: 2.5em; 
+        color: #000000;
+        margin-top: 0px;
+    }
+    
 }
 
 

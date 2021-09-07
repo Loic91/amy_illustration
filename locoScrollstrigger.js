@@ -543,10 +543,10 @@ ScrollTrigger.create({
 
     start: "top bottom",
     end: "top top",
-    animation: gsap.to('.box_color_1', 2, {
-        // y: '100%',
+    animation: gsap.to('.box_color_1', 5.5, {
         opacity: 0,
-        delay: 1.9
+        // x: -100,
+        delay: 0.2
     }),
     // markers: true
 })
@@ -557,13 +557,27 @@ ScrollTrigger.create({
 
     start: "top bottom",
     end: "top top",
-    animation: gsap.to('.box_color_2', 2, {
-        // y: '100%',
+    animation: gsap.to('.box_color_2', 5.5, {
         opacity: 0,
-        delay: 1.9
+        // x: 100,
+        delay: 0.2
     }),
     // markers: true
 })
+
+ScrollTrigger.create({
+    trigger: '#text_pictures_1',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.from('#text_pictures_1', 2, {
+        y: '100%',
+        delay: 0.9
+    }),
+    // markers: true
+})
+// ********
 
 ScrollTrigger.create({
     trigger: '.box_color_3',
@@ -571,10 +585,10 @@ ScrollTrigger.create({
 
     start: "top center",
     end: "top top",
-    animation: gsap.to('.box_color_3', 2.5, {
-        // y: '100%',
+    animation: gsap.to('.box_color_3', 5.5, {
         opacity: 0,
-        delay: 1.9
+        // x: 100,
+        delay: 0.2
     }),
     // markers: true
 })
@@ -585,13 +599,28 @@ ScrollTrigger.create({
 
     start: "top bottom",
     end: "top top",
-    animation: gsap.to('.box_color_4', 2.5, {
-        // y: '100%',
+    animation: gsap.to('.box_color_4', 5.5, {
         opacity: 0,
-        delay: 1.9
+        // x: -100,
+        delay: 0.2
     }),
     // markers: true
 })
+
+ScrollTrigger.create({
+    trigger: '#text_pictures_2',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.from('#text_pictures_2', 2, {
+        y: '100%',
+        delay: 0.9
+    }),
+    // markers: true
+})
+// ********
+
 
 ScrollTrigger.create({
     trigger: '.box_color_5',
@@ -599,10 +628,10 @@ ScrollTrigger.create({
 
     start: "top bottom",
     end: "top top",
-    animation: gsap.to('.box_color_5', 2.5, {
+    animation: gsap.to('.box_color_5', 5.5, {
         // y: '100%',
         opacity: 0,
-        delay: 1.9
+        delay: 0.2
     }),
     // markers: true
 })
@@ -613,13 +642,27 @@ ScrollTrigger.create({
 
     start: "top bottom",
     end: "top top",
-    animation: gsap.to('.box_color_6', 2.5, {
+    animation: gsap.to('.box_color_6',5.5, {
         // y: '100%',
         opacity: 0,
-        delay: 1.9
+        delay: 0.2
     }),
     // markers: true
 })
+
+ScrollTrigger.create({
+    trigger: '#text_pictures_3',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.from('#text_pictures_3', 2, {
+        y: '100%',
+        delay: 0.9
+    }),
+    // markers: true
+})
+// ********
 
 
 
