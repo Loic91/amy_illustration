@@ -1228,7 +1228,7 @@ body{
 
 
 
-@media all and (min-width: 361px) and (max-width: 370px){
+@media all and (min-width: 361px) and (max-width: 374px){
     body .section{
         height: 80vh;
     }
@@ -1753,7 +1753,7 @@ body{
 
 
 
-@media all and (min-width: 371px) and (max-width: 398px){
+@media all and (min-width: 375px) and (max-width: 398px){
     body .section{
         height: 80vh;
     }
