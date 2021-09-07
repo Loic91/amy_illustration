@@ -1228,7 +1228,7 @@ body{
 
 
 
-@media all and (min-width: 361px) and (max-width: 374px){
+@media all and (min-width: 361px) and (max-width: 370px){
     body .section{
         height: 80vh;
     }
@@ -1753,7 +1753,7 @@ body{
 
 
 
-@media all and (min-width: 375px) and (max-width: 398px){
+@media all and (min-width: 371px) and (max-width: 398px){
     body .section{
         height: 80vh;
     }
@@ -2108,8 +2108,8 @@ body{
         z-index: -1;
     } 
     .box_color_1 {
-        background-color: #ff0808;
-        overflow: hidden;
+        /* background-color: #ff0808;
+        overflow: hidden; */
         width: 200px;
         height: 200px;
     }
@@ -2126,8 +2126,8 @@ body{
         z-index: -1;
     } 
     .box_color_2 {
-        background-color: #0bff55;
-        overflow: hidden;
+        /* background-color: #0bff55;
+        overflow: hidden; */
         width: 200px;
         height: 200px;
     }
@@ -2165,8 +2165,8 @@ body{
         z-index: -1;
     } 
     .box_color_3 {
-        background-color: #ba43ff;
-        overflow: hidden;
+        /* background-color: #ba43ff;
+        overflow: hidden; */
         width: 200px;
         height: 200px;
     }
@@ -2183,8 +2183,8 @@ body{
         z-index: -1;
     } 
     .box_color_4 {
-        background-color: #ffea2f;
-        overflow: hidden;
+        /* background-color: #ffea2f;
+        overflow: hidden; */
         width: 200px;
         height: 200px;
     }
@@ -2221,8 +2221,8 @@ body{
         z-index: -1;
     } 
     .box_color_5 {
-        background-color: #43e3ff;
-        overflow: hidden;
+        /* background-color: #43e3ff;
+        overflow: hidden; */
         width: 200px;
         height: 200px;
     }
@@ -2239,8 +2239,8 @@ body{
         z-index: -1;
     } 
     .box_color_6 {
-        background-color: #ff11cc;
-        overflow: hidden;
+        /* background-color: #ff11cc;
+        overflow: hidden; */
         width: 200px;
         height: 200px;
     }
