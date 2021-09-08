@@ -667,3 +667,233 @@ ScrollTrigger.create({
 
 
 
+ScrollTrigger.create({
+    trigger: '.block_1__xl',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_1__xl", 1.9, {
+        x: "620",
+        y: "160",
+        scale: "1.3",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.block_1__mobile',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_1__mobile", 1.9, {
+        x: "320",
+        y: "160",
+        scale: "1.2",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.block_2__xl',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_2__xl", 1.9, {
+        x: "0",
+        y: "160",
+        scale: "1.3",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.block_2__mobile',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_2__mobile", 1.9, {
+        x: "-320",
+        y: "160",
+        scale: "1.2",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.block_3__xl',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_3__xl", 1.9, {
+        x: "-620",
+        y: "160",
+        scale: "1.3",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.block_3__mobile',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_3__mobile", 1.9, {
+        x: "320",
+        y: "160",
+        scale: "1.2",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+
+ScrollTrigger.create({
+    trigger: '.block_4__xl',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_4__xl", 1.9, {
+        x: "620",
+        y: "160",
+        scale: "1.3",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.block_4__mobile',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_4__mobile", 1.9, {
+        x: "-320",
+        y: "160",
+        scale: "1.2",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.block_5__xl',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_5__xl", 1.9, {
+        x: "0",
+        y: "160",
+        scale: "1.3",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.block_5__mobile',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_5__mobile", 1.9, {
+        x: "320",
+        y: "160",
+        scale: "1.2",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.block_6__xl',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_6__xl", 1.9, {
+        x: "-620",
+        y: "160",
+        scale: "1.3",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.block_6__mobile',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_6__mobile", 1.9, {
+        x: "-320",
+        y: "160",
+        scale: "1.2",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+
+
+
+ScrollTrigger.create({
+    trigger: '.line p',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.timeline().from('.line p', 2.8,{
+        delay: 1,
+        ease: 'power4.out',
+        y: 60, //Régle la disctance entre le haut et le bas 
+        skewY: 15,
+        stagger: {
+            amount: .8
+        }
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.line_mobile p',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.timeline().from('.line_mobile p', 2.8,{
+        delay: 1,
+        ease: 'power4.out',
+        y: 60, //Régle la disctance entre le haut et le bas 
+        skewY: 15,
+        stagger: {
+            amount: .8
+        }
+    }),
+    // markers: true
+})
