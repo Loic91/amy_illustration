@@ -565,18 +565,18 @@ ScrollTrigger.create({
 //     // markers: true
 // })
 
-ScrollTrigger.create({
-    trigger: '#text_pictures_1',
-    scroller: '.smooth-scroll',
+// ScrollTrigger.create({
+//     trigger: '#text_pictures_1',
+//     scroller: '.smooth-scroll',
 
-    start: "top bottom",
-    end: "top top",
-    animation: gsap.from('#text_pictures_1', 2, {
-        y: '100%',
-        delay: 0.9
-    }),
-    // markers: true
-})
+//     start: "top bottom",
+//     end: "top top",
+//     animation: gsap.from('#text_pictures_1', 2, {
+//         y: '100%',
+//         delay: 0.9
+//     }),
+//     // markers: true
+// })
 // ********
 
 // ScrollTrigger.create({
@@ -607,18 +607,18 @@ ScrollTrigger.create({
 //     // markers: true
 // })
 
-ScrollTrigger.create({
-    trigger: '#text_pictures_2',
-    scroller: '.smooth-scroll',
+// ScrollTrigger.create({
+//     trigger: '#text_pictures_2',
+//     scroller: '.smooth-scroll',
 
-    start: "top bottom",
-    end: "top top",
-    animation: gsap.from('#text_pictures_2', 2, {
-        y: '100%',
-        delay: 0.9
-    }),
-    // markers: true
-})
+//     start: "top bottom",
+//     end: "top top",
+//     animation: gsap.from('#text_pictures_2', 2, {
+//         y: '100%',
+//         delay: 0.9
+//     }),
+//     // markers: true
+// })
 // ********
 
 
@@ -650,18 +650,18 @@ ScrollTrigger.create({
 //     // markers: true
 // })
 
-ScrollTrigger.create({
-    trigger: '#text_pictures_3',
-    scroller: '.smooth-scroll',
+// ScrollTrigger.create({
+//     trigger: '#text_pictures_3',
+//     scroller: '.smooth-scroll',
 
-    start: "top bottom",
-    end: "top top",
-    animation: gsap.from('#text_pictures_3', 2, {
-        y: '100%',
-        delay: 0.9
-    }),
-    // markers: true
-})
+//     start: "top bottom",
+//     end: "top top",
+//     animation: gsap.from('#text_pictures_3', 2, {
+//         y: '100%',
+//         delay: 0.9
+//     }),
+//     // markers: true
+// })
 // ********
 
 
@@ -700,6 +700,39 @@ ScrollTrigger.create({
     // markers: true
 })
 ScrollTrigger.create({
+    trigger: '.block_1__tel',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_1__tel", 1.9, {
+        x: "170",
+        y: "50",
+        scale: "1.4",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.block_1__small_tel',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_1__small_tel", 1.9, {
+        x: "150",
+        y: "50",
+        scale: "1.4",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+
+ScrollTrigger.create({
     trigger: '.block_2__xl',
     scroller: '.smooth-scroll',
 
@@ -732,6 +765,39 @@ ScrollTrigger.create({
     // markers: true
 })
 ScrollTrigger.create({
+    trigger: '.block_2__tel',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_2__tel", 1.9, {
+        x: "-170",
+        y: "50",
+        scale: "1.4",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.block_2__small_tel',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_2__small_tel", 1.9, {
+        x: "-150",
+        y: "50",
+        scale: "1.4",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+
+ScrollTrigger.create({
     trigger: '.block_3__xl',
     scroller: '.smooth-scroll',
 
@@ -757,6 +823,38 @@ ScrollTrigger.create({
         x: "320",
         y: "160",
         scale: "1.2",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.block_3__tel',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_3__tel", 1.9, {
+        x: "170",
+        y: "50",
+        scale: "1.4",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.block_3__small_tel',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_3__small_tel", 1.9, {
+        x: "150",
+        y: "50",
+        scale: "1.4",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -797,6 +895,39 @@ ScrollTrigger.create({
     // markers: true
 })
 ScrollTrigger.create({
+    trigger: '.block_4__tel',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_4__tel", 1.9, {
+        x: "-170",
+        y: "50",
+        scale: "1.4",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.block_4__small_tel',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_4__small_tel", 1.9, {
+        x: "-150",
+        y: "50",
+        scale: "1.4",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+
+ScrollTrigger.create({
     trigger: '.block_5__xl',
     scroller: '.smooth-scroll',
 
@@ -829,6 +960,39 @@ ScrollTrigger.create({
     // markers: true
 })
 ScrollTrigger.create({
+    trigger: '.block_5__tel',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_5__tel", 1.9, {
+        x: "170",
+        y: "50",
+        scale: "1.4",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.block_5__small_tel',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_5__small_tel", 1.9, {
+        x: "150",
+        y: "50",
+        scale: "1.4",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+
+ScrollTrigger.create({
     trigger: '.block_6__xl',
     scroller: '.smooth-scroll',
 
@@ -854,6 +1018,38 @@ ScrollTrigger.create({
         x: "-320",
         y: "160",
         scale: "1.2",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.block_6__tel',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_6__tel", 1.9, {
+        x: "-170",
+        y: "50",
+        scale: "1.4",
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.block_6__small_tel',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.to(".block_6__small_tel", 1.9, {
+        x: "-150",
+        y: "50",
+        scale: "1.4",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -897,3 +1093,40 @@ ScrollTrigger.create({
     }),
     // markers: true
 })
+ScrollTrigger.create({
+    trigger: '.line_tel p',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.timeline().from('.line_tel p', 2.8,{
+        delay: 1,
+        ease: 'power4.out',
+        y: 50, //Régle la disctance entre le haut et le bas 
+        skewY: 15,
+        stagger: {
+            amount: .8
+        }
+    }),
+    // markers: true
+})
+
+ScrollTrigger.create({
+    trigger: '.line_small_tel p',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.timeline().from('.line_small_tel p', 2.8,{
+        delay: 1,
+        ease: 'power4.out',
+        y: 40, //Régle la disctance entre le haut et le bas 
+        skewY: 15,
+        stagger: {
+            amount: .8
+        }
+    }),
+    // markers: true
+})
+
+
