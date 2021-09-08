@@ -537,33 +537,33 @@ ScrollTrigger.create({
 
 // *************************
 
-ScrollTrigger.create({
-    trigger: '.box_color_1',
-    scroller: '.smooth-scroll',
+// ScrollTrigger.create({
+//     trigger: '.box_color_1',
+//     scroller: '.smooth-scroll',
 
-    start: "top bottom",
-    end: "top top",
-    animation: gsap.to('.box_color_1', 5.5, {
-        opacity: 0,
-        // x: -100,
-        delay: 0.2
-    }),
-    // markers: true
-})
+//     start: "top bottom",
+//     end: "top top",
+//     animation: gsap.to('.box_color_1', 5.5, {
+//         opacity: 0,
+//         // x: -100,
+//         delay: 0.2
+//     }),
+//     // markers: true
+// })
 
-ScrollTrigger.create({
-    trigger: '.box_color_2',
-    scroller: '.smooth-scroll',
+// ScrollTrigger.create({
+//     trigger: '.box_color_2',
+//     scroller: '.smooth-scroll',
 
-    start: "top bottom",
-    end: "top top",
-    animation: gsap.to('.box_color_2', 5.5, {
-        opacity: 0,
-        // x: 100,
-        delay: 0.2
-    }),
-    // markers: true
-})
+//     start: "top bottom",
+//     end: "top top",
+//     animation: gsap.to('.box_color_2', 5.5, {
+//         opacity: 0,
+//         // x: 100,
+//         delay: 0.2
+//     }),
+//     // markers: true
+// })
 
 ScrollTrigger.create({
     trigger: '#text_pictures_1',
@@ -579,33 +579,33 @@ ScrollTrigger.create({
 })
 // ********
 
-ScrollTrigger.create({
-    trigger: '.box_color_3',
-    scroller: '.smooth-scroll',
+// ScrollTrigger.create({
+//     trigger: '.box_color_3',
+//     scroller: '.smooth-scroll',
 
-    start: "top center",
-    end: "top top",
-    animation: gsap.to('.box_color_3', 5.5, {
-        opacity: 0,
-        // x: 100,
-        delay: 0.2
-    }),
-    // markers: true
-})
+//     start: "top center",
+//     end: "top top",
+//     animation: gsap.to('.box_color_3', 5.5, {
+//         opacity: 0,
+//         // x: 100,
+//         delay: 0.2
+//     }),
+//     // markers: true
+// })
 
-ScrollTrigger.create({
-    trigger: '.box_color_4',
-    scroller: '.smooth-scroll',
+// ScrollTrigger.create({
+//     trigger: '.box_color_4',
+//     scroller: '.smooth-scroll',
 
-    start: "top bottom",
-    end: "top top",
-    animation: gsap.to('.box_color_4', 5.5, {
-        opacity: 0,
-        // x: -100,
-        delay: 0.2
-    }),
-    // markers: true
-})
+//     start: "top bottom",
+//     end: "top top",
+//     animation: gsap.to('.box_color_4', 5.5, {
+//         opacity: 0,
+//         // x: -100,
+//         delay: 0.2
+//     }),
+//     // markers: true
+// })
 
 ScrollTrigger.create({
     trigger: '#text_pictures_2',
@@ -622,33 +622,33 @@ ScrollTrigger.create({
 // ********
 
 
-ScrollTrigger.create({
-    trigger: '.box_color_5',
-    scroller: '.smooth-scroll',
+// ScrollTrigger.create({
+//     trigger: '.box_color_5',
+//     scroller: '.smooth-scroll',
 
-    start: "top bottom",
-    end: "top top",
-    animation: gsap.to('.box_color_5', 5.5, {
-        // y: '100%',
-        opacity: 0,
-        delay: 0.2
-    }),
-    // markers: true
-})
+//     start: "top bottom",
+//     end: "top top",
+//     animation: gsap.to('.box_color_5', 5.5, {
+//         // y: '100%',
+//         opacity: 0,
+//         delay: 0.2
+//     }),
+//     // markers: true
+// })
 
-ScrollTrigger.create({
-    trigger: '.box_color_6',
-    scroller: '.smooth-scroll',
+// ScrollTrigger.create({
+//     trigger: '.box_color_6',
+//     scroller: '.smooth-scroll',
 
-    start: "top bottom",
-    end: "top top",
-    animation: gsap.to('.box_color_6',5.5, {
-        // y: '100%',
-        opacity: 0,
-        delay: 0.2
-    }),
-    // markers: true
-})
+//     start: "top bottom",
+//     end: "top top",
+//     animation: gsap.to('.box_color_6',5.5, {
+//         // y: '100%',
+//         opacity: 0,
+//         delay: 0.2
+//     }),
+//     // markers: true
+// })
 
 ScrollTrigger.create({
     trigger: '#text_pictures_3',

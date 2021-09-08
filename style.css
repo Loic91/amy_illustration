@@ -538,10 +538,11 @@ body{
         width: 150px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_1 {
-        background-color: #ff0808;
-        overflow: hidden;
+        /* background-color: #ff0808;
+        overflow: hidden; */
         width: 150px;
         height: 150px;
     }
@@ -556,10 +557,11 @@ body{
         width: 150px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_2 {
-        background-color: #0bff55;
-        overflow: hidden;
+        /* background-color: #0bff55;
+        overflow: hidden; */
         width: 150px;
         height: 150px;
     }
@@ -595,10 +597,11 @@ body{
         width: 150px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_3 {
-        background-color: #ba43ff;
-        overflow: hidden;
+        /* background-color: #ba43ff;
+        overflow: hidden; */
         width: 150px;
         height: 150px;
     }
@@ -613,10 +616,11 @@ body{
         width: 150px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_4 {
-        background-color: #ffea2f;
-        overflow: hidden;
+        /* background-color: #ffea2f;
+        overflow: hidden; */
         width: 150px;
         height: 150px;
     }
@@ -651,10 +655,11 @@ body{
         width: 150px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_5 {
-        background-color: #43e3ff;
-        overflow: hidden;
+        /* background-color: #43e3ff;
+        overflow: hidden; */
         width: 150px;
         height: 150px;
     }
@@ -669,10 +674,11 @@ body{
         width: 150px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_6 {
-        background-color: #ff11cc;
-        overflow: hidden;
+        /* background-color: #ff11cc;
+        overflow: hidden; */
         width: 150px;
         height: 150px;
     }
@@ -1057,10 +1063,11 @@ body{
         width: 180px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_1 {
-        background-color: #ff0808;
-        overflow: hidden;
+        /* background-color: #ff0808;
+        overflow: hidden; */
         width: 180px;
         height: 180px;
     }
@@ -1075,10 +1082,11 @@ body{
         width: 180px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_2 {
-        background-color: #0bff55;
-        overflow: hidden;
+        /* background-color: #0bff55;
+        overflow: hidden; */
         width: 180px;
         height: 180px;
     }
@@ -1114,10 +1122,11 @@ body{
         width: 180px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_3 {
-        background-color: #ba43ff;
-        overflow: hidden;
+        /* background-color: #ba43ff;
+        overflow: hidden; */
         width: 180px;
         height: 180px;
     }
@@ -1132,10 +1141,11 @@ body{
         width: 180px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_4 {
-        background-color: #ffea2f;
-        overflow: hidden;
+        /* background-color: #ffea2f;
+        overflow: hidden; */
         width: 180px;
         height: 180px;
     }
@@ -1170,10 +1180,11 @@ body{
         width: 180px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_5 {
-        background-color: #43e3ff;
-        overflow: hidden;
+        /* background-color: #43e3ff;
+        overflow: hidden; */
         width: 180px;
         height: 180px;
     }
@@ -1188,10 +1199,11 @@ body{
         width: 180px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_6 {
-        background-color: #ff11cc;
-        overflow: hidden;
+        /* background-color: #ff11cc;
+        overflow: hidden; */
         width: 180px;
         height: 180px;
     }
@@ -1581,10 +1593,11 @@ body{
         width: 200px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_1 {
-        background-color: #ff0808;
-        overflow: hidden;
+        /* background-color: #ff0808;
+        overflow: hidden; */
         width: 200px;
         height: 200px;
     }
@@ -1599,10 +1612,11 @@ body{
         width: 200px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_2 {
-        background-color: #0bff55;
-        overflow: hidden;
+        /* background-color: #0bff55;
+        overflow: hidden; */
         width: 200px;
         height: 200px;
     }
@@ -1638,10 +1652,11 @@ body{
         width: 200px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_3 {
-        background-color: #ba43ff;
-        overflow: hidden;
+        /* background-color: #ba43ff;
+        overflow: hidden; */
         width: 200px;
         height: 200px;
     }
@@ -1656,10 +1671,11 @@ body{
         width: 200px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_4 {
-        background-color: #ffea2f;
-        overflow: hidden;
+        /* background-color: #ffea2f;
+        overflow: hidden; */
         width: 200px;
         height: 200px;
     }
@@ -1694,10 +1710,11 @@ body{
         width: 200px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_5 {
-        background-color: #43e3ff;
-        overflow: hidden;
+        /* background-color: #43e3ff;
+        overflow: hidden; */
         width: 200px;
         height: 200px;
     }
@@ -1712,10 +1729,11 @@ body{
         width: 200px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_6 {
-        background-color: #ff11cc;
-        overflow: hidden;
+        /* background-color: #ff11cc;
+        overflow: hidden; */
         width: 200px;
         height: 200px;
     }
@@ -2106,6 +2124,7 @@ body{
         width: 200px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_1 {
         /* background-color: #ff0808;
@@ -2124,6 +2143,7 @@ body{
         width: 200px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_2 {
         /* background-color: #0bff55;
@@ -2163,6 +2183,7 @@ body{
         width: 200px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_3 {
         /* background-color: #ba43ff;
@@ -2181,6 +2202,7 @@ body{
         width: 200px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_4 {
         /* background-color: #ffea2f;
@@ -2219,6 +2241,7 @@ body{
         width: 200px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_5 {
         /* background-color: #43e3ff;
@@ -2237,6 +2260,7 @@ body{
         width: 200px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_6 {
         /* background-color: #ff11cc;
@@ -2629,10 +2653,11 @@ body{
         width: 200px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_1 {
-        background-color: #ff0808;
-        overflow: hidden;
+        /* background-color: #ff0808;
+        overflow: hidden; */
         width: 200px;
         height: 200px;
     }
@@ -2647,10 +2672,11 @@ body{
         width: 200px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_2 {
-        background-color: #0bff55;
-        overflow: hidden;
+        /* background-color: #0bff55;
+        overflow: hidden; */
         width: 200px;
         height: 200px;
     }
@@ -2686,10 +2712,11 @@ body{
         width: 200px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_3 {
-        background-color: #ba43ff;
-        overflow: hidden;
+        /* background-color: #ba43ff;
+        overflow: hidden; */
         width: 200px;
         height: 200px;
     }
@@ -2704,10 +2731,11 @@ body{
         width: 200px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_4 {
-        background-color: #ffea2f;
-        overflow: hidden;
+        /* background-color: #ffea2f;
+        overflow: hidden; */
         width: 200px;
         height: 200px;
     }
@@ -2742,10 +2770,11 @@ body{
         width: 200px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_5 {
-        background-color: #43e3ff;
-        overflow: hidden;
+        /* background-color: #43e3ff;
+        overflow: hidden; */
         width: 200px;
         height: 200px;
     }
@@ -2760,10 +2789,11 @@ body{
         width: 200px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_6 {
-        background-color: #ff11cc;
-        overflow: hidden;
+        /* background-color: #ff11cc;
+        overflow: hidden; */
         width: 200px;
         height: 200px;
     }
@@ -3081,10 +3111,11 @@ body{
         width: 300px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_1 {
-        background-color: #ff0808;
-        overflow: hidden;
+        /* background-color: #ff0808;
+        overflow: hidden; */
         width: 300px;
         height: 300px;
     }
@@ -3099,10 +3130,11 @@ body{
         width: 300px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_2 {
-        background-color: #0bff55;
-        overflow: hidden;
+        /* background-color: #0bff55;
+        overflow: hidden; */
         width: 300px;
         height: 300px;
     }
@@ -3138,10 +3170,11 @@ body{
         width: 300px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_3 {
-        background-color: #ba43ff;
-        overflow: hidden;
+        /* background-color: #ba43ff;
+        overflow: hidden; */
         width: 300px;
         height: 300px;
     }
@@ -3156,10 +3189,11 @@ body{
         width: 300px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_4 {
-        background-color: #ffea2f;
-        overflow: hidden;
+        /* background-color: #ffea2f;
+        overflow: hidden; */
         width: 300px;
         height: 300px;
     }
@@ -3194,10 +3228,11 @@ body{
         width: 300px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_5 {
-        background-color: #43e3ff;
-        overflow: hidden;
+        /* background-color: #43e3ff;
+        overflow: hidden; */
         width: 300px;
         height: 300px;
     }
@@ -3212,10 +3247,11 @@ body{
         width: 300px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_6 {
-        background-color: #ff11cc;
-        overflow: hidden;
+        /* background-color: #ff11cc;
+        overflow: hidden; */
         width: 300px;
         height: 300px;
     }
@@ -3522,10 +3558,11 @@ body{
         width: 300px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_1 {
-        background-color: #ff0808;
-        overflow: hidden;
+        /* background-color: #ff0808;
+        overflow: hidden; */
         width: 300px;
         height: 300px;
     }
@@ -3540,10 +3577,11 @@ body{
         width: 300px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_2 {
-        background-color: #0bff55;
-        overflow: hidden;
+        /* background-color: #0bff55;
+        overflow: hidden; */
         width: 300px;
         height: 300px;
     }
@@ -3579,10 +3617,11 @@ body{
         width: 300px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_3 {
-        background-color: #ba43ff;
-        overflow: hidden;
+        /* background-color: #ba43ff;
+        overflow: hidden; */
         width: 300px;
         height: 300px;
     }
@@ -3597,10 +3636,11 @@ body{
         width: 300px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_4 {
-        background-color: #ffea2f;
-        overflow: hidden;
+        /* background-color: #ffea2f;
+        overflow: hidden; */
         width: 300px;
         height: 300px;
     }
@@ -3635,10 +3675,11 @@ body{
         width: 300px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_5 {
-        background-color: #43e3ff;
-        overflow: hidden;
+        /* background-color: #43e3ff;
+        overflow: hidden; */
         width: 300px;
         height: 300px;
     }
@@ -3653,10 +3694,11 @@ body{
         width: 300px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_6 {
-        background-color: #ff11cc;
-        overflow: hidden;
+        /* background-color: #ff11cc;
+        overflow: hidden; */
         width: 300px;
         height: 300px;
     }
@@ -3956,10 +3998,11 @@ body{
         width: 300px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_1 {
-        background-color: #ff0808;
-        overflow: hidden;
+        /* background-color: #ff0808;
+        overflow: hidden; */
         width: 300px;
         height: 300px;
     }
@@ -3974,10 +4017,11 @@ body{
         width: 300px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_2 {
-        background-color: #0bff55;
-        overflow: hidden;
+        /* background-color: #0bff55;
+        overflow: hidden; */
         width: 300px;
         height: 300px;
     }
@@ -4013,10 +4057,11 @@ body{
         width: 300px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_3 {
-        background-color: #ba43ff;
-        overflow: hidden;
+        /* background-color: #ba43ff;
+        overflow: hidden; */
         width: 300px;
         height: 300px;
     }
@@ -4031,10 +4076,11 @@ body{
         width: 300px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_4 {
-        background-color: #ffea2f;
-        overflow: hidden;
+        /* background-color: #ffea2f;
+        overflow: hidden; */
         width: 300px;
         height: 300px;
     }
@@ -4069,10 +4115,11 @@ body{
         width: 300px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_5 {
-        background-color: #43e3ff;
-        overflow: hidden;
+        /* background-color: #43e3ff;
+        overflow: hidden; */
         width: 300px;
         height: 300px;
     }
@@ -4087,10 +4134,11 @@ body{
         width: 300px;
         height:100%;
         z-index: -1;
+        border-radius: 50px;
     } 
     .box_color_6 {
-        background-color: #ff11cc;
-        overflow: hidden;
+        /* background-color: #ff11cc;
+        overflow: hidden; */
         width: 300px;
         height: 300px;
     }
