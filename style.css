@@ -183,7 +183,7 @@ button {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     font-weight: bold;
-    background: rgb(247, 205, 205);
+    background: rgba(247, 205, 205, 0.527);
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
