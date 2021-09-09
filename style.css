@@ -95,7 +95,9 @@ body{
     justify-content: flex-start;
 	align-items: center;
     cursor: pointer;
-    /* margin-top: -170px; */
+}
+canvas{
+    border-radius: 50px;
 }
 @media screen and (min-width: 53em){
     .content {
@@ -553,6 +555,7 @@ body{
         width: 105px;
         height: 105px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_2__small_tel{
         background-image: url('./images/2.jpg');
@@ -561,6 +564,7 @@ body{
         width: 105px;
         height: 105px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_3__small_tel{
         background-image: url('./images/3.jpg');
@@ -569,6 +573,7 @@ body{
         width: 105px;
         height: 105px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_4__small_tel{
         background-image: url('./images/4.jpg');
@@ -577,6 +582,7 @@ body{
         width: 105px;
         height: 105px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_5__small_tel{
         background-image: url('./images/5.jpg');
@@ -585,6 +591,7 @@ body{
         width: 105px;
         height: 105px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_6__small_tel{
         background-image: url('./images/6.jpg');
@@ -593,6 +600,7 @@ body{
         width: 105px;
         height: 105px;
         margin: 15px;
+        border-radius: 50px;
     }
 
     .line_small_tel{
@@ -1024,6 +1032,7 @@ body{
         width: 105px;
         height: 105px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_2__small_tel{
         background-image: url('./images/2.jpg');
@@ -1032,6 +1041,7 @@ body{
         width: 105px;
         height: 105px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_3__small_tel{
         background-image: url('./images/3.jpg');
@@ -1040,6 +1050,7 @@ body{
         width: 105px;
         height: 105px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_4__small_tel{
         background-image: url('./images/4.jpg');
@@ -1048,6 +1059,7 @@ body{
         width: 105px;
         height: 105px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_5__small_tel{
         background-image: url('./images/5.jpg');
@@ -1056,6 +1068,7 @@ body{
         width: 105px;
         height: 105px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_6__small_tel{
         background-image: url('./images/6.jpg');
@@ -1064,6 +1077,7 @@ body{
         width: 105px;
         height: 105px;
         margin: 15px;
+        border-radius: 50px;
     }
 
     .line_small_tel{
@@ -1500,6 +1514,7 @@ body{
         width: 120px;
         height: 120px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_2__tel{
         background-image: url('./images/2.jpg');
@@ -1508,6 +1523,7 @@ body{
         width: 120px;
         height: 120px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_3__tel{
         background-image: url('./images/3.jpg');
@@ -1516,6 +1532,7 @@ body{
         width: 120px;
         height: 120px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_4__tel{
         background-image: url('./images/4.jpg');
@@ -1524,6 +1541,7 @@ body{
         width: 120px;
         height: 120px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_5__tel{
         background-image: url('./images/5.jpg');
@@ -1532,6 +1550,7 @@ body{
         width: 120px;
         height: 120px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_6__tel{
         background-image: url('./images/6.jpg');
@@ -1540,6 +1559,7 @@ body{
         width: 120px;
         height: 120px;
         margin: 15px;
+        border-radius: 50px;
     }
 
     .line_tel{
@@ -1974,6 +1994,7 @@ body{
         width: 120px;
         height: 120px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_2__tel{
         background-image: url('./images/2.jpg');
@@ -1982,6 +2003,7 @@ body{
         width: 120px;
         height: 120px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_3__tel{
         background-image: url('./images/3.jpg');
@@ -1990,6 +2012,7 @@ body{
         width: 120px;
         height: 120px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_4__tel{
         background-image: url('./images/4.jpg');
@@ -1998,6 +2021,7 @@ body{
         width: 120px;
         height: 120px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_5__tel{
         background-image: url('./images/5.jpg');
@@ -2006,6 +2030,7 @@ body{
         width: 120px;
         height: 120px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_6__tel{
         background-image: url('./images/6.jpg');
@@ -2014,6 +2039,7 @@ body{
         width: 120px;
         height: 120px;
         margin: 15px;
+        border-radius: 50px;
     }
 
     .line_tel{
@@ -2446,6 +2472,7 @@ body{
         width: 120px;
         height: 120px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_2__tel{
         background-image: url('./images/2.jpg');
@@ -2454,6 +2481,7 @@ body{
         width: 120px;
         height: 120px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_3__tel{
         background-image: url('./images/3.jpg');
@@ -2462,6 +2490,7 @@ body{
         width: 120px;
         height: 120px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_4__tel{
         background-image: url('./images/4.jpg');
@@ -2470,6 +2499,7 @@ body{
         width: 120px;
         height: 120px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_5__tel{
         background-image: url('./images/5.jpg');
@@ -2478,6 +2508,7 @@ body{
         width: 120px;
         height: 120px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_6__tel{
         background-image: url('./images/6.jpg');
@@ -2486,6 +2517,7 @@ body{
         width: 120px;
         height: 120px;
         margin: 15px;
+        border-radius: 50px;
     }
 
     .line_tel{
@@ -2846,6 +2878,7 @@ body{
         width: 250px;
         height: 250px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_2__mobile{
         background-image: url('./images/2.jpg');
@@ -2854,6 +2887,7 @@ body{
         width: 250px;
         height: 250px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_3__mobile{
         background-image: url('./images/3.jpg');
@@ -2862,6 +2896,7 @@ body{
         width: 250px;
         height: 250px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_4__mobile{
         background-image: url('./images/4.jpg');
@@ -2870,6 +2905,7 @@ body{
         width: 250px;
         height: 250px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_5__mobile{
         background-image: url('./images/5.jpg');
@@ -2878,6 +2914,7 @@ body{
         width: 250px;
         height: 250px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_6__mobile{
         background-image: url('./images/6.jpg');
@@ -2886,6 +2923,7 @@ body{
         width: 250px;
         height: 250px;
         margin: 15px;
+        border-radius: 50px;
     }
 
     .line_mobile{
@@ -3229,6 +3267,7 @@ body{
         width: 250px;
         height: 250px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_2__xl{
         background-image: url('./images/2.jpg');
@@ -3237,6 +3276,7 @@ body{
         width: 250px;
         height: 250px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_3__xl{
         background-image: url('./images/3.jpg');
@@ -3245,6 +3285,7 @@ body{
         width: 250px;
         height: 250px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_4__xl{
         background-image: url('./images/4.jpg');
@@ -3253,6 +3294,7 @@ body{
         width: 250px;
         height: 250px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_5__xl{
         background-image: url('./images/5.jpg');
@@ -3261,6 +3303,7 @@ body{
         width: 250px;
         height: 250px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_6__xl{
         background-image: url('./images/6.jpg');
@@ -3269,6 +3312,7 @@ body{
         width: 250px;
         height: 250px;
         margin: 15px;
+        border-radius: 50px;
     }
 
     .line{
@@ -3589,6 +3633,7 @@ body{
         width: 250px;
         height: 250px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_2__xl{
         background-image: url('./images/2.jpg');
@@ -3597,6 +3642,7 @@ body{
         width: 250px;
         height: 250px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_3__xl{
         background-image: url('./images/3.jpg');
@@ -3605,6 +3651,7 @@ body{
         width: 250px;
         height: 250px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_4__xl{
         background-image: url('./images/4.jpg');
@@ -3613,6 +3660,7 @@ body{
         width: 250px;
         height: 250px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_5__xl{
         background-image: url('./images/5.jpg');
@@ -3621,6 +3669,7 @@ body{
         width: 250px;
         height: 250px;
         margin: 15px;
+        border-radius: 50px;
     }
     .block_6__xl{
         background-image: url('./images/6.jpg');
@@ -3629,6 +3678,7 @@ body{
         width: 250px;
         height: 250px;
         margin: 15px;
+        border-radius: 50px;
     }
 
     .line{
