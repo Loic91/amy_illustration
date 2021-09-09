@@ -141,9 +141,6 @@ canvas{
     text-align: right;
     /* margin-top: -250px; */
 }
-/* .svg_line  {
-    margin-top: -120px;
-} */
 .anima{
     /* font-size: 14em; */
     font-weight: 300;
@@ -165,6 +162,11 @@ canvas{
 }
 .bloc_tio{
     display: flex;
+}
+
+.bloc_saying h1{
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
 }
 /* **************************************** */
 #btn{
@@ -712,7 +714,30 @@ button {
         font-size: 0.9em;
         font-weight: bold;
     }
+
+    /* ********************* */
+
+    .bloc_saying{
+        text-align: right;
+    }
+    .what{
+        font-size: 3.5em;
+        margin-top: 0px;
+    }
+    .client{
+        font-size: 3.5em;
+        margin-top: -65px;
+    }
+    .are{
+        font-size: 3.5em;
+        margin-top: -65px;
+    }
+    .say{
+        font-size: 3.5em;
+        margin-top: -65px;
+    }
 }
+
 
 
 
@@ -1195,6 +1220,28 @@ button {
         font-size: 0.9em;
         font-weight: bold;
     }
+
+    /* ********************* */
+
+    .bloc_saying{
+        text-align: right;
+    }
+    .what{
+        font-size: 3.5em;
+        margin-top: 0px;
+    }
+    .client{
+        font-size: 3.5em;
+        margin-top: -65px;
+    }
+    .are{
+        font-size: 3.5em;
+        margin-top: -65px;
+    }
+    .say{
+        font-size: 3.5em;
+        margin-top: -65px;
+    }
 }
 
 
@@ -1673,6 +1720,28 @@ button {
         font-family: 'Roboto', sans-serif;
         font-size: 1.1em;
         font-weight: bold;
+    }
+
+    /* ********************* */
+
+    .bloc_saying{
+        text-align: right;
+    }
+    .what{
+        font-size: 4em;
+        margin-top: 0px;
+    }
+    .client{
+        font-size: 4em;
+        margin-top: -65px;
+    }
+    .are{
+        font-size: 4em;
+        margin-top: -65px;
+    }
+    .say{
+        font-size: 4em;
+        margin-top: -65px;
     }
 }
 
@@ -2154,6 +2223,28 @@ button {
         font-size: 1.1em;
         font-weight: bold;
     }
+
+    /* ********************* */
+
+    .bloc_saying{
+        text-align: right;
+    }
+    .what{
+        font-size: 4em;
+        margin-top: 0px;
+    }
+    .client{
+        font-size: 4em;
+        margin-top: -65px;
+    }
+    .are{
+        font-size: 4em;
+        margin-top: -65px;
+    }
+    .say{
+        font-size: 4em;
+        margin-top: -65px;
+    }
 }
 
 
@@ -2632,6 +2723,28 @@ button {
         font-size: 1.1em;
         font-weight: bold;
     }
+
+    /* ********************* */
+
+    .bloc_saying{
+        text-align: right;
+    }
+    .what{
+        font-size: 4em;
+        margin-top: 0px;
+    }
+    .client{
+        font-size: 4em;
+        margin-top: -65px;
+    }
+    .are{
+        font-size: 4em;
+        margin-top: -65px;
+    }
+    .say{
+        font-size: 4em;
+        margin-top: -65px;
+    }
 }
 
 
@@ -3038,6 +3151,28 @@ button {
         font-size: 1.4em;
         font-weight: bold;
     }
+
+    /* ********************* */
+
+    .bloc_saying{
+        text-align: right;
+    }
+    .what{
+        font-size: 8em;
+        margin-top: 0px;
+    }
+    .client{
+        font-size: 8em;
+        margin-top: -145px;
+    }
+    .are{
+        font-size: 8em;
+        margin-top: -145px;
+    }
+    .say{
+        font-size: 8em;
+        margin-top: -145px;
+    }
 }
 
 
@@ -3411,6 +3546,28 @@ button {
         font-size: 1.4em;
         font-weight: bold;
     }
+
+    /* ********************* */
+
+    .bloc_saying{
+        text-align: right;
+    }
+    .what{
+        font-size: 11em;
+        margin-top: 0px;
+    }
+    .client{
+        font-size: 11em;
+        margin-top: -195px;
+    }
+    .are{
+        font-size: 11em;
+        margin-top: -195px;
+    }
+    .say{
+        font-size: 11em;
+        margin-top: -195px;
+    }
 }
 
 
@@ -3776,6 +3933,28 @@ button {
         font-family: 'Roboto', sans-serif;
         font-size: 1.4em;
         font-weight: bold;
+    }
+
+    /* ********************* */
+
+    .bloc_saying{
+        text-align: right;
+    }
+    .what{
+        font-size: 13.5em;
+        margin-top: 0px;
+    }
+    .client{
+        font-size: 13.5em;
+        margin-top: -235px;
+    }
+    .are{
+        font-size: 13.5em;
+        margin-top: -235px;
+    }
+    .say{
+        font-size: 13.5em;
+        margin-top: -235px;
     }
 }
 

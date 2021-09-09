@@ -1146,3 +1146,64 @@ ScrollTrigger.create({
 //     // markers: true
 // })
 
+// ******************************
+
+ScrollTrigger.create({
+    trigger: '.what',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.from('.what', 2, {
+        x: "60",
+        ease: Power3.easeInOut,
+        opacity: "0",
+    }),
+    // markers: true
+})
+
+ScrollTrigger.create({
+    trigger: '.client',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.from('.client', 2, {
+        x: "-60",
+        ease: Power3.easeInOut,
+        opacity: "0",
+    }),
+    // markers: true
+})
+
+ScrollTrigger.create({
+    trigger: '.are',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.from('.are', 2, {
+        x: "60",
+        ease: Power3.easeInOut,
+        opacity: "0",
+    }),
+    // markers: true
+})
+
+ScrollTrigger.create({
+    trigger: '.say',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.from('.say', 2, {
+        x: "-60",
+        ease: Power3.easeInOut,
+        opacity: "0",
+    }),
+    // markers: true
+})
+
+
+
+
