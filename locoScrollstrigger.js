@@ -1129,4 +1129,21 @@ ScrollTrigger.create({
     // markers: true
 })
 
+// *****************************
+
+ScrollTrigger.create({
+    trigger: '#btn',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.from("#btn", 1.9, {
+        y: "50",
+        opacity: 0,
+        ease: Expo.easeInOut,
+        // delay: 0.9,
+        delay: 2.1,
+    }),
+    // markers: true
+})
 
