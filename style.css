@@ -198,35 +198,20 @@ button {
     outline: none;
 }
 .btn_1 {
+    background: rgb(96,9,240);
+    background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
     border: none;
-    color: rgb(80, 73, 73);
+    
 }
-.btn_1:after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 100%;
-    top: 0;
-    left: 0;
-    direction: rtl;
-    z-index: -1;
-    box-shadow:
-     -7px -7px 20px 0px #fff9,
-     -4px -4px 5px 0px #fff9,
-     7px 7px 20px 0px #0002,
-     4px 4px 5px 0px #0001;
-    transition: all 0.3s ease;
+.btn_1:before {
+    height: 0%;
+    width: 2px;
 }
 .btn_1:hover {
-    color: #000;
-}
-.btn_1:hover:after {
-    left: auto;
-    right: 0;
-    width: 100%;
-}
-.btn_1:active {
-    top: 2px;
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
 }
 /* **************************************** */
 
