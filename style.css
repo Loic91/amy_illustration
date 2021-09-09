@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+    position: relative;
 }
 body{
     margin: 0;
@@ -611,7 +612,7 @@ button {
         width: 105px;
         height: 105px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_2__small_tel{
         background-image: url('./images/2.jpg');
@@ -620,7 +621,7 @@ button {
         width: 105px;
         height: 105px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_3__small_tel{
         background-image: url('./images/3.jpg');
@@ -629,7 +630,7 @@ button {
         width: 105px;
         height: 105px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_4__small_tel{
         background-image: url('./images/4.jpg');
@@ -638,7 +639,7 @@ button {
         width: 105px;
         height: 105px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_5__small_tel{
         background-image: url('./images/5.jpg');
@@ -647,7 +648,7 @@ button {
         width: 105px;
         height: 105px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_6__small_tel{
         background-image: url('./images/6.jpg');
@@ -656,7 +657,7 @@ button {
         width: 105px;
         height: 105px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
 
     .line_small_tel{
@@ -1094,7 +1095,7 @@ button {
         width: 105px;
         height: 105px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_2__small_tel{
         background-image: url('./images/2.jpg');
@@ -1103,7 +1104,7 @@ button {
         width: 105px;
         height: 105px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_3__small_tel{
         background-image: url('./images/3.jpg');
@@ -1112,7 +1113,7 @@ button {
         width: 105px;
         height: 105px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_4__small_tel{
         background-image: url('./images/4.jpg');
@@ -1121,7 +1122,7 @@ button {
         width: 105px;
         height: 105px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_5__small_tel{
         background-image: url('./images/5.jpg');
@@ -1130,7 +1131,7 @@ button {
         width: 105px;
         height: 105px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_6__small_tel{
         background-image: url('./images/6.jpg');
@@ -1139,7 +1140,7 @@ button {
         width: 105px;
         height: 105px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
 
     .line_small_tel{
@@ -1582,7 +1583,7 @@ button {
         width: 120px;
         height: 120px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_2__tel{
         background-image: url('./images/2.jpg');
@@ -1591,7 +1592,7 @@ button {
         width: 120px;
         height: 120px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_3__tel{
         background-image: url('./images/3.jpg');
@@ -1600,7 +1601,7 @@ button {
         width: 120px;
         height: 120px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_4__tel{
         background-image: url('./images/4.jpg');
@@ -1609,7 +1610,7 @@ button {
         width: 120px;
         height: 120px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_5__tel{
         background-image: url('./images/5.jpg');
@@ -1618,7 +1619,7 @@ button {
         width: 120px;
         height: 120px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_6__tel{
         background-image: url('./images/6.jpg');
@@ -1627,7 +1628,7 @@ button {
         width: 120px;
         height: 120px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
 
     .line_tel{
@@ -2062,7 +2063,7 @@ button {
         width: 120px;
         height: 120px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_2__tel{
         background-image: url('./images/2.jpg');
@@ -2071,7 +2072,7 @@ button {
         width: 120px;
         height: 120px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_3__tel{
         background-image: url('./images/3.jpg');
@@ -2080,7 +2081,7 @@ button {
         width: 120px;
         height: 120px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_4__tel{
         background-image: url('./images/4.jpg');
@@ -2089,7 +2090,7 @@ button {
         width: 120px;
         height: 120px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_5__tel{
         background-image: url('./images/5.jpg');
@@ -2098,7 +2099,7 @@ button {
         width: 120px;
         height: 120px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_6__tel{
         background-image: url('./images/6.jpg');
@@ -2107,7 +2108,7 @@ button {
         width: 120px;
         height: 120px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
 
     .line_tel{
@@ -2540,7 +2541,7 @@ button {
         width: 120px;
         height: 120px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_2__tel{
         background-image: url('./images/2.jpg');
@@ -2549,7 +2550,7 @@ button {
         width: 120px;
         height: 120px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_3__tel{
         background-image: url('./images/3.jpg');
@@ -2558,7 +2559,7 @@ button {
         width: 120px;
         height: 120px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_4__tel{
         background-image: url('./images/4.jpg');
@@ -2567,7 +2568,7 @@ button {
         width: 120px;
         height: 120px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_5__tel{
         background-image: url('./images/5.jpg');
@@ -2576,7 +2577,7 @@ button {
         width: 120px;
         height: 120px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
     .block_6__tel{
         background-image: url('./images/6.jpg');
@@ -2585,7 +2586,7 @@ button {
         width: 120px;
         height: 120px;
         margin: 15px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
 
     .line_tel{
