@@ -15,9 +15,6 @@ body{
     height: 130vh;
 }
 
-/* .section .bloc_container{
-    height: 150vh;
-} */
 /* ******************************************** */
 
 .cursor {
@@ -168,8 +165,66 @@ canvas{
     display: flex;
 }
 /* **************************************** */
-
-
+#btn{
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+button {
+    margin: 0px;
+    
+}
+.custom-btn {
+    width: 150px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    background: rgb(247, 205, 205);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+.btn_1 {
+    border: none;
+    color: rgb(80, 73, 73);
+}
+.btn_1:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+}
+.btn_1:hover {
+    color: #000;
+}
+.btn_1:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+}
+.btn_1:active {
+    top: 2px;
+}
+/* **************************************** */
 
 
 
@@ -322,7 +377,7 @@ canvas{
         margin-right: -25px;
 
         margin-top: -100px;
-        height: 310vh;
+        height: 320vh;
     }
     .container .bloc_container{
         width: 310px;
@@ -625,7 +680,9 @@ canvas{
     .text_block_small_tel_1{
         display: flex;
         justify-content: space-between;
-        margin: 30px;
+        /* margin: 30px; */
+        margin-left: 65px;
+        margin-right: 65px;
         margin-top: 50px;
         font-family: 'Roboto', sans-serif;
         font-size: 0.9em;
@@ -634,7 +691,9 @@ canvas{
     .text_block_small_tel_2{
         display: flex;
         justify-content: space-between;
-        margin: 30px;
+        /* margin: 30px; */
+        margin-left: 65px;
+        margin-right: 65px;
         margin-top: 50px;
         font-family: 'Roboto', sans-serif;
         font-size: 0.9em;
@@ -643,7 +702,9 @@ canvas{
     .text_block_small_tel_3{
         display: flex;
         justify-content: space-between;
-        margin: 30px;
+        /* margin: 30px; */
+        margin-left: 65px;
+        margin-right: 65px;
         margin-top: 50px;
         font-family: 'Roboto', sans-serif;
         font-size: 0.9em;
@@ -799,7 +860,7 @@ canvas{
         margin-right: -25px;
 
         margin-top: -100px;
-        height: 260vh;
+        height: 280vh;
     }
     .container .bloc_container{
         width: 310px;
@@ -1102,7 +1163,9 @@ canvas{
     .text_block_small_tel_1{
         display: flex;
         justify-content: space-between;
-        margin: 30px;
+        /* margin: 0px; */
+        margin-left: 65px;
+        margin-right: 65px;
         margin-top: 50px;
         font-family: 'Roboto', sans-serif;
         font-size: 0.9em;
@@ -1111,7 +1174,9 @@ canvas{
     .text_block_small_tel_2{
         display: flex;
         justify-content: space-between;
-        margin: 30px;
+        /* margin: 30px; */
+        margin-left: 65px;
+        margin-right: 65px;
         margin-top: 50px;
         font-family: 'Roboto', sans-serif;
         font-size: 0.9em;
@@ -1120,7 +1185,9 @@ canvas{
     .text_block_small_tel_3{
         display: flex;
         justify-content: space-between;
-        margin: 30px;
+        /* margin: 30px; */
+        margin-left: 65px;
+        margin-right: 65px;
         margin-top: 50px;
         font-family: 'Roboto', sans-serif;
         font-size: 0.9em;
