@@ -198,8 +198,10 @@ button {
     outline: none;
 }
 .btn_1 {
-    background: rgb(96,9,240);
-    background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+    /* background: rgb(96,9,240);
+    background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%); */
+    background: rgb(255, 0, 0);
+    background: linear-gradient(0deg, rgba(255, 0, 0,1) 0%, rgb(255, 62, 59) 100%);
     border: none;
     
 }
