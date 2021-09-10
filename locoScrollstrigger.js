@@ -1065,7 +1065,7 @@ ScrollTrigger.create({
 
     start: "top bottom",
     end: "top top",
-    animation: gsap.timeline().from('.line p', 2.8,{
+    animation: gsap.timeline().from('.line p', 2.1,{
         delay: 1,
         ease: 'power4.out',
         y: 60, //Régle la disctance entre le haut et le bas 
@@ -1082,7 +1082,7 @@ ScrollTrigger.create({
 
     start: "top bottom",
     end: "top top",
-    animation: gsap.timeline().from('.line_mobile p', 2.8,{
+    animation: gsap.timeline().from('.line_mobile p', 2.1,{
         delay: 1,
         ease: 'power4.out',
         y: 60, //Régle la disctance entre le haut et le bas 
@@ -1099,7 +1099,7 @@ ScrollTrigger.create({
 
     start: "top bottom",
     end: "top top",
-    animation: gsap.timeline().from('.line_tel p', 2.8,{
+    animation: gsap.timeline().from('.line_tel p', 2.1,{
         delay: 1,
         ease: 'power4.out',
         y: 50, //Régle la disctance entre le haut et le bas 
@@ -1131,20 +1131,20 @@ ScrollTrigger.create({
 
 // *****************************
 
-// ScrollTrigger.create({
-//     trigger: '#btn',
-//     scroller: '.smooth-scroll',
+ScrollTrigger.create({
+    trigger: '#btn',
+    scroller: '.smooth-scroll',
 
-//     start: "top bottom",
-//     end: "top top",
-//     animation: TweenMax.from("#btn", 1.9, {
-//         y: "50",
-//         opacity: 0,
-//         ease: Expo.easeInOut,
-//         delay: 2.1,
-//     }),
-//     // markers: true
-// })
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.from("#btn", 1.9, {
+        y: "50",
+        opacity: 0,
+        ease: Expo.easeInOut,
+        delay: 2.1,
+    }),
+    // markers: true
+})
 
 // ******************************
 
@@ -1198,6 +1198,43 @@ ScrollTrigger.create({
     end: "top top",
     animation: gsap.from('.say', 2, {
         x: "-60",
+        ease: Power3.easeInOut,
+        opacity: "0",
+    }),
+    // markers: true
+})
+
+ScrollTrigger.create({
+    trigger: '.card_one',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.from('.card_one', 2, {
+        ease: Power3.easeInOut,
+        opacity: "0",
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.card_two',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.from('.card_two', 2.5, {
+        ease: Power3.easeInOut,
+        opacity: "0",
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.card_three',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.from('.card_three', 3, {
         ease: Power3.easeInOut,
         opacity: "0",
     }),
