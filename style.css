@@ -1192,9 +1192,10 @@ body .clients_container{
     .title{
         margin-bottom: -120px;
     }
-    /* .subtitle{
-        margin-bottom: -50px;
-    } */
+    .content{
+        width: 50%;
+        margin: auto;
+    }
     .subtitle .bespoke{
         font-size: 14em;
     }
