@@ -165,13 +165,12 @@ body .svg_line {
     color: red;
 }
 /* *************************************** */
-@media all and (min-width: 0px) and (max-width: 999){
-    .bloc_text_one{
+
+@media screen and (max-width: 999px){
+    .cursor{
         display: none;
     }
-}
-@media screen and (max-width: 900px){
-    .cursor{
+    .bloc_text_one{
         display: none;
     }
 }
@@ -542,6 +541,7 @@ body .arrow{
 
 .line_tel{
     overflow: hidden;
+    margin-top: 70px;
 }
 .display_blocks__tel_1 .main-text p{
     overflow: hidden;
