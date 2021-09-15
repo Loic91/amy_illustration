@@ -676,7 +676,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_1__xl", 1.9, {
         x: "620",
         y: "160",
-        scale: "1.3",
+        scale: "1.2",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -741,7 +741,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_2__xl", 1.9, {
         x: "0",
         y: "160",
-        scale: "1.3",
+        scale: "1.2",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -806,7 +806,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_3__xl", 1.9, {
         x: "-620",
         y: "160",
-        scale: "1.3",
+        scale: "1.2",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -871,7 +871,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_4__xl", 1.9, {
         x: "620",
         y: "160",
-        scale: "1.3",
+        scale: "1.2",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -936,7 +936,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_5__xl", 1.9, {
         x: "0",
         y: "160",
-        scale: "1.3",
+        scale: "1.2",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -1001,7 +1001,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_6__xl", 1.9, {
         x: "-620",
         y: "160",
-        scale: "1.3",
+        scale: "1.2",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -1017,7 +1017,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_6__mobile", 1.9, {
         x: "-320",
         y: "160",
-        scale: "1.2",
+        scale: "1.3",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
