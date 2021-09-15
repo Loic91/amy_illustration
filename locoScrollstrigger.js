@@ -708,7 +708,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_1__tel", 1.9, {
         x: "170",
         y: "50",
-        scale: "1.4",
+        scale: "1.2",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -724,7 +724,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_1__small_tel", 1.9, {
         x: "150",
         y: "50",
-        scale: "1.4",
+        scale: "1.2",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -773,7 +773,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_2__tel", 1.9, {
         x: "-170",
         y: "50",
-        scale: "1.4",
+        scale: "1.2",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -789,7 +789,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_2__small_tel", 1.9, {
         x: "-150",
         y: "50",
-        scale: "1.4",
+        scale: "1.2",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -838,7 +838,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_3__tel", 1.9, {
         x: "170",
         y: "50",
-        scale: "1.4",
+        scale: "1.2",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -854,7 +854,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_3__small_tel", 1.9, {
         x: "150",
         y: "50",
-        scale: "1.4",
+        scale: "1.2",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -903,7 +903,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_4__tel", 1.9, {
         x: "-170",
         y: "50",
-        scale: "1.4",
+        scale: "1.2",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -919,7 +919,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_4__small_tel", 1.9, {
         x: "-150",
         y: "50",
-        scale: "1.4",
+        scale: "1.2",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -968,7 +968,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_5__tel", 1.9, {
         x: "170",
         y: "50",
-        scale: "1.4",
+        scale: "1.2",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -984,7 +984,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_5__small_tel", 1.9, {
         x: "150",
         y: "50",
-        scale: "1.4",
+        scale: "1.2",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -1033,7 +1033,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_6__tel", 1.9, {
         x: "-170",
         y: "50",
-        scale: "1.4",
+        scale: "1.2",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
@@ -1049,7 +1049,7 @@ ScrollTrigger.create({
     animation: TweenMax.to(".block_6__small_tel", 1.9, {
         x: "-150",
         y: "50",
-        scale: "1.4",
+        scale: "1.2",
         ease: Expo.easeInOut,
         // delay: 0.9,
         delay: 2.1,
