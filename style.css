@@ -26,8 +26,7 @@
 body{
     margin: 0;
     padding: 0;
-    /* background-color: rgba(111, 247, 201, 0.24); */
-    background-color: rgba(241, 190, 156, 0.658);
+    /* background-color: rgba(241, 190, 156, 0.658); */
 }
 body .section{
     height: 100vh;
