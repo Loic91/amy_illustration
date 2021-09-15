@@ -496,8 +496,8 @@ body .arrow{
 .o-img_3 {
     margin: 0;
     padding: 20px;
-    perspective: -600px;
-    -webkit-perspective: -600px;
+    perspective: -60px;
+    -webkit-perspective: -60px;
 }
 .o-img_line_3 {
     display: block;
@@ -540,8 +540,8 @@ body .arrow{
 .o-img_4 {
     margin: 0;
     padding: 20px;
-    perspective: -600px;
-    -webkit-perspective: -600px;
+    perspective: -60px;
+    -webkit-perspective: -60px;
 }
 .o-img_line_4 {
     display: block;
@@ -581,8 +581,8 @@ body .arrow{
 .o-img_5 {
     margin: 0;
     padding: 20px;
-    perspective: -600px;
-    -webkit-perspective: -600px;
+    perspective: -60px;
+    -webkit-perspective: -60px;
 }
 .o-img_line_5 {
     display: block;
