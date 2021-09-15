@@ -1057,7 +1057,50 @@ ScrollTrigger.create({
 //     // markers: true
 // })
 
+ScrollTrigger.create({
+    trigger: '.display_blocks__tel_1',
+    scroller: '.smooth-scroll',
 
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.from(".display_blocks__tel_1", 1.9, {
+        y: "50",
+        opacity: 0,
+        // ease: Expo.easeInOut,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+
+ScrollTrigger.create({
+    trigger: '.display_blocks__tel_2',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.from(".display_blocks__tel_2", 1.9, {
+        y: "50",
+        opacity: 0,
+        // ease: Expo.easeInOut,
+        delay: 2.1,
+    }),
+    // markers: true
+})
+
+ScrollTrigger.create({
+    trigger: '.display_blocks__tel_3',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: TweenMax.from(".display_blocks__tel_3", 1.9, {
+        y: "50",
+        opacity: 0,
+        // ease: Expo.easeInOut,
+        delay: 2.1,
+    }),
+    // markers: true
+})
 
 ScrollTrigger.create({
     trigger: '.line p',
