@@ -1063,11 +1063,11 @@ ScrollTrigger.create({
 
     start: "top bottom",
     end: "top top",
-    animation: TweenMax.from(".display_blocks__tel_1", 1.9, {
+    animation: TweenMax.from(".display_blocks__tel_1", 0.9, {
         y: "10",
         opacity: 0,
         // ease: Expo.easeInOut,
-        delay: 2.1,
+        delay: 0.1,
     }),
     // markers: true
 })
@@ -1078,11 +1078,11 @@ ScrollTrigger.create({
 
     start: "top bottom",
     end: "top top",
-    animation: TweenMax.from(".display_blocks__tel_2", 1.9, {
+    animation: TweenMax.from(".display_blocks__tel_2", 0.9, {
         y: "50",
         opacity: 0,
         // ease: Expo.easeInOut,
-        delay: 2.1,
+        delay: 0.1,
     }),
     // markers: true
 })
@@ -1093,11 +1093,11 @@ ScrollTrigger.create({
 
     start: "top bottom",
     end: "top top",
-    animation: TweenMax.from(".display_blocks__tel_3", 1.9, {
+    animation: TweenMax.from(".display_blocks__tel_3", 0.9, {
         y: "100",
         opacity: 0,
         // ease: Expo.easeInOut,
-        delay: 2.1,
+        delay: 0.1,
     }),
     // markers: true
 })
