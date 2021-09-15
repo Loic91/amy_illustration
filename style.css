@@ -1136,6 +1136,7 @@ body .clients_container{
     .nav ul{
         width: 350px;
         margin-left: auto;
+        margin-right: 20px;
     }
     .title .shamblen, .title .amy{
         font-size: 11em;
@@ -1145,20 +1146,21 @@ body .clients_container{
     }
     .title{
         margin-bottom: -100px;
+        margin-right: 20px;
     }
     
     /* ******************** */
     .bloccc{
         display: flex;
         margin-top: -100px;
-        justify-content: center;
+        justify-content: space-evenly;
     }
     .o-container-img {
         z-index: -1;
     }
     .o-img_line img{
         border-radius: 30px;
-        width: 500px;
+        width: 300px;
         margin-top: -200px;
     }
     .o-img {
@@ -1189,6 +1191,47 @@ body .clients_container{
     }
 
 
+    .o-container-img_1 {
+        /* margin-right: auto; */
+        margin-left: -150px;
+        z-index: -2;
+    }
+    .o-img_line_1 img{
+        border-radius: 30px;
+        width: 350px;
+        margin-top: -100px;
+    }
+    .o-img_1 {
+        margin: 0;
+        padding: 20px;
+        perspective: -600px;
+        -webkit-perspective: -600px;
+    }
+    .o-img_line_1 {
+        display: block;
+        opacity: 0;
+        /* transform-origin: center top; */
+        transform-style: preserve-3d;
+        transform: translateY(100%) rotateY(-90deg);
+        transition: opacity 3.8s cubic-bezier(0.215, 0.61, 0.355, 1),
+          transform 1.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+        text-align: center;
+    }
+    .o-img_1.is-inview .o-img_line_1 {
+        transform: none;
+        opacity: 1;
+    }
+    .o-img_1.is-inview .o-img_line_1:first-child {
+        transition-delay: .6s;
+    }
+    .o-img_1.is-inview .o-img_line_1:first-child(2) {
+        transition-delay: .6s;
+    }
+    .o-img_line_1 span {
+        display: inline-block;
+    }
+
+
     .o-container-img_2 {
         /* margin-right: auto; */
         margin-left: -150px;
@@ -1196,7 +1239,7 @@ body .clients_container{
     }
     .o-img_line_2 img{
         border-radius: 30px;
-        width: 500px;
+        width: 250px;
         margin-top: -100px;
     }
     .o-img_2 {
@@ -1230,6 +1273,10 @@ body .clients_container{
     }
     /* ***************** */
 
+    .subtitle {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
     .subtitle .bespoke{
         font-size: 11em;
     }
@@ -1240,7 +1287,7 @@ body .clients_container{
     body .svg_line {
         margin-top: -100px;
         width: 180px;
-        margin-left: 100px;
+        margin-left: 0px;
     }
 
     .container .bloc_container{
@@ -1654,23 +1701,35 @@ body .clients_container{
     .nav ul{
         width: 400px;
         /* margin-left: auto; */
-        margin-right: 20px;
+        margin-right: 100px;
         
     }
     .title .shamblen, .title .amy{
-        font-size: 10em;
+        font-size: 13em;
         text-align: right;
+        margin-right: 100px;
     }
     .title .amy{
-        margin-top: -160px;
+        margin-top: -230px;
     }
     .title{
         margin-top: 0px;
         margin-bottom: -120px;
         margin-right: 10px;
     }
+    .bloccc{
+        margin-top: -200px;
+    }
     .o-img_line img{
+        width: 300px;
+        margin-top: -100px;
+    }
+    .o-img_line_1 img{
         width: 600px;
+    }
+    .o-img_line_2 img{
+        width: 250px;
+        margin-top: 50px;
     }
     /* .content{
         width: 50%;
@@ -1753,7 +1812,7 @@ body .clients_container{
     }
     
     .container .yellow_bloc{
-        margin-top: -600px;
+        margin-top: -500px;
         margin-left: 0px;
         margin-right: 0px;
         border-radius: 30px;
