@@ -478,6 +478,7 @@ body .arrow{
 .display_blocks__tel_1, .display_blocks__tel_2, .display_blocks__tel_3{
     display: flex;
     justify-content: center;
+    z-index: 350;
 }
 .display_blocks__tel_1{
     margin-top: 0px;
