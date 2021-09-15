@@ -253,8 +253,9 @@ body .svg_line {
 .container .yellow_bloc{
     background-color: #FED701;
     min-width: 100%;
-    margin-left: -25px;
-    margin-right: -25px;
+    border-radius: 30px;
+    /* margin-left: -25px;
+    margin-right: -25px; */
 
     margin-top: 320px;
     padding-bottom: 50px;
@@ -760,7 +761,11 @@ body .clients_container{
         font-size: 0.9em;
         width: 300px;
     }
-    
+    .container .yellow_bloc{
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 30px;
+    }
     .view{
         font-size: 7em;
 
@@ -886,9 +891,11 @@ body .clients_container{
         font-size: 0.9em;
         width: 300px;
     }
-    
     .container .yellow_bloc{
         margin-top: 620px;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 30px;
     }
     .view{
         font-size: 10em;
@@ -1081,6 +1088,9 @@ body .clients_container{
     
     .container .yellow_bloc{
         margin-top: -500px;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 30px;
     }
     .view{
         font-size: 10em;
@@ -1180,6 +1190,7 @@ body .clients_container{
         z-index: -1;
     }
     .o-img_line img{
+        border-radius: 30px;
         width: 600px;
         margin-top: -200px;
     }
@@ -1218,6 +1229,7 @@ body .clients_container{
         z-index: -2;
     }
     .o-img_line_2 img{
+        border-radius: 30px;
         width: 600px;
         margin-top: -100px;
     }
@@ -1373,6 +1385,9 @@ body .clients_container{
     
     .container .yellow_bloc{
         margin-top: -600px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 30px;
     }
 
     .container .bloc_container{
@@ -1561,11 +1576,21 @@ body .clients_container{
     .card_one, .card_two, .card_three{
         width: 300px;
     }
-
-
-
-
-
-    
-    
 }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1320px){
+
+}
+
+
+

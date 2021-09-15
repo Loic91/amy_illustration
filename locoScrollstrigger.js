@@ -1068,7 +1068,7 @@ ScrollTrigger.create({
     animation: gsap.timeline().from('.line p', 2.1,{
         delay: 1,
         ease: 'power4.out',
-        y: 60, //Régle la disctance entre le haut et le bas 
+        y: 65, //Régle la disctance entre le haut et le bas 
         skewY: 15,
         stagger: {
             amount: .8
@@ -1085,7 +1085,7 @@ ScrollTrigger.create({
     animation: gsap.timeline().from('.line_mobile p', 2.1,{
         delay: 1,
         ease: 'power4.out',
-        y: 60, //Régle la disctance entre le haut et le bas 
+        y: 65, //Régle la disctance entre le haut et le bas 
         skewY: 15,
         stagger: {
             amount: .8
@@ -1102,7 +1102,7 @@ ScrollTrigger.create({
     animation: gsap.timeline().from('.line_tel p', 2.1,{
         delay: 1,
         ease: 'power4.out',
-        y: 50, //Régle la disctance entre le haut et le bas 
+        y: 55, //Régle la disctance entre le haut et le bas 
         skewY: 15,
         stagger: {
             amount: .8
@@ -1120,7 +1120,7 @@ ScrollTrigger.create({
     animation: gsap.timeline().from('.line_small_tel p', 2.8,{
         delay: 1,
         ease: 'power4.out',
-        y: 40, //Régle la disctance entre le haut et le bas 
+        y: 50, //Régle la disctance entre le haut et le bas 
         skewY: 15,
         stagger: {
             amount: .8
