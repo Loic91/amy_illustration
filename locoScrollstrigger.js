@@ -1064,7 +1064,7 @@ ScrollTrigger.create({
     start: "top bottom",
     end: "top top",
     animation: TweenMax.from(".display_blocks__tel_1", 1.9, {
-        y: "50",
+        y: "10",
         opacity: 0,
         // ease: Expo.easeInOut,
         delay: 2.1,
@@ -1094,7 +1094,7 @@ ScrollTrigger.create({
     start: "top bottom",
     end: "top top",
     animation: TweenMax.from(".display_blocks__tel_3", 1.9, {
-        y: "50",
+        y: "100",
         opacity: 0,
         // ease: Expo.easeInOut,
         delay: 2.1,
