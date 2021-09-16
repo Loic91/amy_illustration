@@ -1207,8 +1207,9 @@ body .clients_container{
     /* ***************** */
 
     .subtitle {
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 200px;
+        margin-right: 200px;
+        font-weight: bold;
     }
     .subtitle .bespoke{
         font-size: 11em;
@@ -1217,11 +1218,11 @@ body .clients_container{
         font-size: 11em;
         margin-top: -195px;
     }
-    body .svg_line {
+    /* body .svg_line {
         margin-top: -100px;
         width: 180px;
         margin-left: 0px;
-    }
+    } */
 
     .container .bloc_container{
         font-size: 0.9em;
@@ -1235,6 +1236,7 @@ body .clients_container{
         margin-top: -130px;
         width: 500px;
         margin-left: auto;
+        margin-right: 170px;
     }
     .phraz_one {
         overflow: hidden;
