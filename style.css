@@ -26,7 +26,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgba(241, 190, 156, 0.527);
+    /* background-color: rgb(15, 255, 255); */
 }
 body .section{
     height: 100vh;
@@ -36,6 +36,9 @@ body .section{
     padding: 8px;
 }
 .title h1{
+    font-family: 'Righteous', cursive;
+}
+.title_xl h1{
     font-family: 'Righteous', cursive;
 }
 .bloc_container h1{
@@ -169,6 +172,9 @@ body .svg_line {
 
 @media screen and (max-width: 999px){
     .cursor{
+        display: none;
+    }
+    .title_xl{
         display: none;
     }
     .bloc_text_one{
@@ -1124,11 +1130,15 @@ body .clients_container{
 
 
 @media screen and (min-width: 1000px){
+    .title{
+        display: none;
+    }
     .content {
         display: none;
     }
     body .section{
         height: 300vh;
+        width: 100vw;
     }
     .nav{
         font-size: 0.9em;
@@ -1138,15 +1148,19 @@ body .clients_container{
         margin-left: auto;
         margin-right: 20px;
     }
-    .title .shamblen, .title .amy{
-        font-size: 11em;
+    .title_xl .shamblen, .title_xl .amy{
+        font-size: 17vw;
     }
-    .title .amy{
-        margin-top: -195px;
+    .title_xl .shamblen{
+        text-align: left;
+        margin-top: 0;
     }
-    .title{
+    .title_xl .amy{
+        text-align: right;
+        margin-top: -100px;
+    }
+    .title_xl{
         margin-bottom: -100px;
-        margin-right: 20px;
     }
     
     /* ******************** */
@@ -1160,7 +1174,7 @@ body .clients_container{
     }
     .o-img_line img{
         border-radius: 30px;
-        width: 230px;
+        width: 500px;
         margin-top: -100px;
     }
     .o-img {
@@ -1190,87 +1204,6 @@ body .clients_container{
         display: inline-block;
     }
 
-
-    .o-container-img_1 {
-        /* margin-right: auto; */
-        margin-left: -150px;
-        z-index: -2;
-    }
-    .o-img_line_1 img{
-        border-radius: 30px;
-        width: 280px;
-        margin-top: -100px;
-    }
-    .o-img_1 {
-        margin: 0;
-        padding: 20px;
-        perspective: -600px;
-        -webkit-perspective: -600px;
-    }
-    .o-img_line_1 {
-        display: block;
-        opacity: 0;
-        /* transform-origin: center top; */
-        transform-style: preserve-3d;
-        transform: translateY(100%) rotateY(-90deg);
-        transition: opacity 3.8s cubic-bezier(0.215, 0.61, 0.355, 1),
-          transform 1.8s cubic-bezier(0.215, 0.61, 0.355, 1);
-        text-align: center;
-    }
-    .o-img_1.is-inview .o-img_line_1 {
-        transform: none;
-        opacity: 1;
-    }
-    .o-img_1.is-inview .o-img_line_1:first-child {
-        transition-delay: .6s;
-    }
-    .o-img_1.is-inview .o-img_line_1:first-child(2) {
-        transition-delay: .6s;
-    }
-    .o-img_line_1 span {
-        display: inline-block;
-    }
-
-
-    .o-container-img_2 {
-        /* margin-right: auto; */
-        margin-left: -150px;
-        z-index: -2;
-    }
-    .o-img_line_2 img{
-        border-radius: 30px;
-        width: 200px;
-        margin-top: -100px;
-    }
-    .o-img_2 {
-        margin: 0;
-        padding: 20px;
-        perspective: -600px;
-        -webkit-perspective: -600px;
-    }
-    .o-img_line_2 {
-        display: block;
-        opacity: 0;
-        /* transform-origin: center top; */
-        transform-style: preserve-3d;
-        transform: translateY(100%) rotateY(-90deg);
-        transition: opacity 3.8s cubic-bezier(0.215, 0.61, 0.355, 1),
-          transform 1.8s cubic-bezier(0.215, 0.61, 0.355, 1);
-        text-align: center;
-    }
-    .o-img_2.is-inview .o-img_line_2 {
-        transform: none;
-        opacity: 1;
-    }
-    .o-img_2.is-inview .o-img_line_2:first-child {
-        transition-delay: .6s;
-    }
-    .o-img_2.is-inview .o-img_line_2:first-child(2) {
-        transition-delay: .6s;
-    }
-    .o-img_line_2 span {
-        display: inline-block;
-    }
     /* ***************** */
 
     .subtitle {
@@ -1704,15 +1637,19 @@ body .clients_container{
         margin-right: 100px;
         
     }
-    .title .shamblen, .title .amy{
-        font-size: 13em;
-        text-align: right;
-        margin-right: 100px;
+    .title_xl .shamblen, .title_xl .amy{
+        font-size: 17vw;
+        margin-right: 10px;
     }
-    .title .amy{
-        margin-top: -230px;
+    .title_xl .shamblen{
+        text-align: left;
+        margin-left: 20px;
     }
-    .title{
+
+    .title_xl .amy{
+        margin-top: -150px;
+    }
+    .title_xl{
         margin-top: 0px;
         margin-bottom: -120px;
         margin-right: 10px;
@@ -1721,7 +1658,7 @@ body .clients_container{
         margin-top: -200px;
     }
     .o-img_line img{
-        width: 300px;
+        width: 600px;
         margin-top: -100px;
     }
     .o-img_line_1 img{
@@ -1731,16 +1668,13 @@ body .clients_container{
         width: 250px;
         margin-top: 50px;
     }
-    /* .content{
-        width: 50%;
-        margin: auto;
-    } */
+    
     .subtitle .bespoke{
-        font-size: 14em;
+        font-size: 16vw;
     }
     .subtitle .photo, .subtitle .graphy, .subtitle .anima, .subtitle .tions{
-        font-size: 14em;
-        margin-top: -255px;
+        font-size: 16vw;
+        margin-top: -235px;
     }
     body .svg_line {
         margin-top: -120px;
