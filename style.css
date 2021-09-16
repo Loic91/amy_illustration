@@ -119,10 +119,9 @@ canvas{
 
 .subtitle h1{
     font-family: 'Righteous', cursive;
+    margin-left: 50px;margin-right: 50px;
 }
-/* .subtitle{
-    margin-top: -40px;
-} */
+
 .subtitle .bespoke{
     font-size: 4em;
     margin-top: 0px;
@@ -197,7 +196,7 @@ body .svg_line {
 }
 
 .bloc_text_one_mobile{
-    margin-top: -50px;
+    margin-top: 0px;
     width: 350px;
     margin-left: auto;
 }
@@ -1236,7 +1235,8 @@ body .clients_container{
         margin-top: -130px;
         width: 500px;
         margin-left: auto;
-        margin-right: 170px;
+        margin-right: auto;
+        margin-bottom: 100px;
     }
     .phraz_one {
         overflow: hidden;
@@ -1289,9 +1289,7 @@ body .clients_container{
     }
     
     .container .yellow_bloc{
-        margin-top: -800px;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0;
         border-radius: 30px;
     }
     .view{
@@ -1478,82 +1476,7 @@ body .clients_container{
     .o-img_line_5 span {
         display: inline-block;
     }
-    /* ***************** */
-
-
-
-    /* .blocks__xl{
-        display: flex;
-        justify-content: center;
-        margin-top: -50px;
-    }
-    .blocks__xl_2{
-        display: flex;
-        justify-content: center;
-        margin-top: -20px;
-    }
-
-    .block_1__xl{
-        background-image: url('./images/1.jpg');
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 250px;
-        height: 250px;
-        margin: 15px;
-        border-radius: 50px;
-    }
-    .block_2__xl{
-        background-image: url('./images/2.jpg');
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 250px;
-        height: 250px;
-        margin: 15px;
-        border-radius: 50px;
-    }
-    .block_3__xl{
-        background-image: url('./images/3.jpg');
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 250px;
-        height: 250px;
-        margin: 15px;
-        border-radius: 50px;
-    }
-    .block_4__xl{
-        background-image: url('./images/4.jpg');
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 250px;
-        height: 250px;
-        margin: 15px;
-        border-radius: 50px;
-    }
-    .block_5__xl{
-        background-image: url('./images/5.jpg');
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 250px;
-        height: 250px;
-        margin: 15px;
-        border-radius: 50px;
-    }
-    .block_6__xl{
-        background-image: url('./images/6.jpg');
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 250px;
-        height: 250px;
-        margin: 15px;
-        border-radius: 50px;
-    }
-
-    .line{
-        overflow: hidden;
-    }
-    .display_blocks__xl_1 .main-text p{
-        overflow: hidden;
-    } */
+    /* ************************* */
 
     a{
         text-decoration: none;
@@ -1671,18 +1594,20 @@ body .clients_container{
         margin-top: 50px;
     }
     
+    
     .subtitle .bespoke{
         font-size: 16vw;
+        margin-bottom: 100px;
     }
     .subtitle .photo, .subtitle .graphy, .subtitle .anima, .subtitle .tions{
         font-size: 16vw;
-        margin-top: -235px;
+        margin-bottom: 100px;
     }
-    body .svg_line {
+    /* body .svg_line {
         margin-top: -120px;
         width: 250px;
         margin-left: 100px;
-    }
+    } */
 
     .container .bloc_container{
         font-size: 0.9em;
@@ -1695,7 +1620,6 @@ body .clients_container{
     .bloc_text_one{
         margin-top: -170px;
         width: 600px;
-        margin-left: auto;
     }
     .phraz_one {
         overflow: hidden;
@@ -1748,7 +1672,7 @@ body .clients_container{
     }
     
     .container .yellow_bloc{
-        margin-top: -500px;
+        /* margin-top: -500px; */
         margin-left: 0px;
         margin-right: 0px;
         border-radius: 30px;
