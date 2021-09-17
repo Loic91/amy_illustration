@@ -295,7 +295,7 @@ canvas{
     font-weight: lighter;
     justify-content: space-between;
     font-size: 1.2em; 
-    color: #000000;
+    color: rgb(95, 81, 3);
     margin-top: 0px;
 }
 .yellow_phraz_two_mobile {
@@ -308,7 +308,7 @@ canvas{
     font-weight: lighter;
     justify-content: space-between;
     font-size: 1.2em; 
-    color: #000000;
+    color: rgb(95, 81, 3);
     margin-top: 0px;
 }
 .yellow_phraz_three_mobile {
@@ -321,7 +321,7 @@ canvas{
     font-weight: lighter;
     justify-content: space-between;
     font-size: 1.2em; 
-    color: #000000;
+    color: rgb(95, 81, 3);
     margin-top: 0px;
 }
 .yellow_phraz_four_mobile {
@@ -334,7 +334,7 @@ canvas{
     font-weight: lighter;
     justify-content: space-between;
     font-size: 1.2em; 
-    color: #000000;
+    color: rgb(95, 81, 3);
     margin-top: 0px;
 }
 .yellow_phraz_five_mobile {
@@ -347,7 +347,7 @@ canvas{
     font-weight: lighter;
     justify-content: space-between;
     font-size: 1.2em; 
-    color: #000000;
+    color: rgb(95, 81, 3);
     margin-top: 0px;
 }
 .yellow_phraz_six_mobile {
@@ -360,7 +360,7 @@ canvas{
     font-weight: lighter;
     justify-content: space-between;
     font-size: 1.2em; 
-    color: #000000;
+    color: rgb(95, 81, 3);
     margin-top: 0px;
 }
 .yellow_phraz_seven_mobile {
@@ -373,7 +373,7 @@ canvas{
     font-weight: lighter;
     justify-content: space-between;
     font-size: 1.2em; 
-    color: #000000;
+    color: rgb(95, 81, 3);
     margin-top: 0px;
 }
 .yellow_phraz_eight_mobile {
@@ -386,7 +386,7 @@ canvas{
     font-weight: lighter;
     justify-content: space-between;
     font-size: 1.2em; 
-    color: #000000;
+    color: rgb(95, 81, 3);
     margin-top: 0px;
 }
 .yellow_phraz_nine_mobile {
@@ -399,7 +399,7 @@ canvas{
     font-weight: lighter;
     justify-content: space-between;
     font-size: 1.2em; 
-    color: #000000;
+    color: rgb(95, 81, 3);
     margin-top: 0px;
 }
 .yellow_phraz_ten_mobile {
@@ -412,7 +412,7 @@ canvas{
     font-weight: lighter;
     justify-content: space-between;
     font-size: 1.2em; 
-    color: #000000;
+    color: rgb(95, 81, 3);
     margin-top: 0px;
 }
 .yellow_phraz_eleven_mobile {
@@ -425,7 +425,7 @@ canvas{
     font-weight: lighter;
     justify-content: space-between;
     font-size: 1.2em; 
-    color: #000000;
+    color: rgb(95, 81, 3);
     margin-top: 0px;
 }
 
@@ -434,16 +434,19 @@ canvas{
 }
 .view{
     font-size: 8em;
+    color: whitesmoke;
 
 }
 .col{
     font-size: 8em;
     margin-top: -140px;
+    color: whitesmoke;
 }
 .lec{
     font-size: 8em;
     margin-top: -140px;
     margin-left: auto;
+    color: whitesmoke;
 }
 .bloc_lec{
     display: flex;
@@ -457,6 +460,7 @@ body .svg_line_2{
     font-size: 8em;
     margin-top: -140px;
     text-align: left;
+    color: whitesmoke;
 }
 .bloc_tio{
     display: flex;
@@ -472,6 +476,7 @@ body .svg_line_3{
     margin-top: -140px;
     text-align: right;
     margin-bottom: 0;
+    color: whitesmoke;
 }
 
 body .arrow{
@@ -639,7 +644,7 @@ button {
 .custom-btn {
     width: 150px;
     height: 60px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border-radius: 5px;
     padding: 10px 25px;
     font-family: 'Roboto', sans-serif;
@@ -658,8 +663,8 @@ button {
 .btn_1 {
     /* background: rgb(96,9,240);
     background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%); */
-    background: rgb(255, 0, 0);
-    background: linear-gradient(0deg, rgba(255, 0, 0,1) 0%, rgb(255, 62, 59) 100%);
+    background: rgb(240, 232, 232);
+    background: linear-gradient(0deg, rgba(240, 232, 232,1) 0%, rgb(240, 232, 232) 100%);
     border: none;
     
 }
@@ -1538,7 +1543,7 @@ body .clients_container{
         font-weight: lighter;
         justify-content: space-between;
         font-size: 1.45em; 
-        color: #000000;
+        color: rgb(0, 0, 0);
         margin-top: 0px;
     }
     .phraz_two {
@@ -1597,6 +1602,7 @@ body .clients_container{
     #yellow_phraz_1_mobile{
         font-size: 1.9em; 
         margin-top: 0px;
+        color: rgb(95, 81, 3);
     }
     .yellow_phraz_two_mobile {
         overflow: hidden;
@@ -1606,6 +1612,7 @@ body .clients_container{
     #yellow_phraz_2_mobile{
         font-size: 1.9em; 
         margin-top: 0px;
+        color: rgb(95, 81, 3);
     }
     .yellow_phraz_three_mobile {
         overflow: hidden;
@@ -1615,6 +1622,7 @@ body .clients_container{
     #yellow_phraz_3_mobile{
         font-size: 1.9em; 
         margin-top: 0px;
+        color: rgb(95, 81, 3);
     }
     .yellow_phraz_four_mobile {
         overflow: hidden;
@@ -1624,6 +1632,7 @@ body .clients_container{
     #yellow_phraz_4_mobile{
         font-size: 1.9em; 
         margin-top: 0px;
+        color: rgb(95, 81, 3);
     }
     .yellow_phraz_five_mobile {
         overflow: hidden;
@@ -1633,6 +1642,7 @@ body .clients_container{
     #yellow_phraz_5_mobile{
         font-size: 1.9em; 
         margin-top: 0px;
+        color: rgb(95, 81, 3);
     }
     .yellow_phraz_six_mobile {
         overflow: hidden;
@@ -1642,6 +1652,7 @@ body .clients_container{
     #yellow_phraz_6_mobile{
         font-size: 1.9em; 
         margin-top: 0px;
+        color: rgb(95, 81, 3);
     }
     .yellow_phraz_seven_mobile {
         overflow: hidden;
@@ -1651,6 +1662,7 @@ body .clients_container{
     #yellow_phraz_7_mobile{
         font-size: 1.9em; 
         margin-top: 0px;
+        color: rgb(95, 81, 3);
     }
     .yellow_phraz_eight_mobile {
         overflow: hidden;
@@ -1660,6 +1672,7 @@ body .clients_container{
     #yellow_phraz_8_mobile{
         font-size: 1.9em; 
         margin-top: 0px;
+        color: rgb(95, 81, 3);
     }
     .yellow_phraz_nine_mobile {
         overflow: hidden;
@@ -1669,6 +1682,7 @@ body .clients_container{
     #yellow_phraz_9_mobile{
         font-size: 1.9em; 
         margin-top: 0px;
+        color: rgb(95, 81, 3);
     }
     .yellow_phraz_ten_mobile {
         overflow: hidden;
@@ -1678,6 +1692,7 @@ body .clients_container{
     #yellow_phraz_10_mobile{
         font-size: 1.9em; 
         margin-top: 0px;
+        color: rgb(95, 81, 3);
     }
     .yellow_phraz_eleven_mobile {
         overflow: hidden;
@@ -1687,6 +1702,7 @@ body .clients_container{
     #yellow_phraz_11_mobile{
         font-size: 1.9em; 
         margin-top: 0px;
+        color: rgb(95, 81, 3);
     }
 
     .view{
