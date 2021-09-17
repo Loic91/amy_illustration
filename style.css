@@ -1692,38 +1692,44 @@ body .clients_container{
     .view{
         font-size: 13em;
         margin-top: 50px;
+        color: whitesmoke;
 
     }
     .col{
         font-size: 13em;
         margin-top: -200px;
+        color: whitesmoke;
     }
     .lec{
         font-size: 13em;
         margin-top: -200px;
-        /* text-align: right; */
         margin-left: auto;
+        color: whitesmoke;
     }
     body .svg_line_2{
         margin-top: -100px;
         width: 80px;
         margin-left: auto;
+        color: whitesmoke;
     }
     .tio{
         font-size: 13em;
         margin-top: -200px;
         text-align: left;
+        color: whitesmoke;
     }
     body .svg_line_3{
         margin-top: -100px;
         margin-left: 30px;
         width: 120px;
+        color: whitesmoke;
     }
     .ns{
         font-size: 13em;
         margin-top: -200px;
         text-align: right;
         margin-bottom: 0;
+        color: whitesmoke;
     }
 
     body .arrow{
