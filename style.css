@@ -26,10 +26,41 @@
 body{
     margin: 0;
     padding: 0;
-    /* background-color: rgb(15, 255, 255); */
+    background-color: whitesmoke;
+    /* background-image: url('./images/10.jpg'); */
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 body .section{
     height: 100vh;
+}
+
+/* OVERLAY */
+/* .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    z-index: 99;
+} */
+.o_one {
+    background-color: rgb(248, 203, 3);
+    right: 50%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    z-index: 99;
+}
+      
+.o_two {
+    background-color: rgb(248, 203, 3);
+    left: 50%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    z-index: 99;
 }
 
 .container{
@@ -1101,7 +1132,7 @@ body .clients_container{
         transform-style: preserve-3d;
         transform: translateY(100%) rotateY(-90deg);
         transition: opacity 2.8s cubic-bezier(0.215, 0.61, 0.355, 1),
-          transform 1.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+          transform 2.8s cubic-bezier(0.215, 0.61, 0.355, 1);
         text-align: center;
     }
     .o-img.is-inview .o-img_line {
@@ -1109,7 +1140,7 @@ body .clients_container{
         opacity: 1;
     }
     .o-img .o-img_line:first-child {
-        transition-delay: .6s;
+        transition-delay: 1.6s;
     }
     .o-img_line span {
         display: inline-block;
