@@ -9,6 +9,7 @@ TweenMax.to(".o_two", 2.4, {
     ease: Expo.easeInOut
 });
 
+
 TweenMax.staggerFrom(
     ".shamblen",
     2.1,
@@ -19,6 +20,7 @@ TweenMax.staggerFrom(
     },
     2
 );
+
 TweenMax.staggerFrom(
     ".amy",
     2.1,
@@ -30,9 +32,11 @@ TweenMax.staggerFrom(
     2
 );
 
-TweenMax.from("#content", 2.6, {
+TweenMax.from(".content", 1.9, {
     opacity: 0,
-    delay: 1.7,
+    y: 60,
+    ease: Power3.easeInOut,
+    delay: 1.9,
 })
 
 
